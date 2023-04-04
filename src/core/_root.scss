@@ -1,0 +1,22 @@
+// The CSS to be included in your .theme.css file.
+// Addon @imports should be placed here.
+
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
+
+:root {
+    // --home-image: url(https://i.imgur.com/j2H4s4f.png);
+    --home-image: url(https://i.imgur.com/13IMMZn.jpg);
+
+    --accent-hue: 208;
+    --accent-saturation: 85%;
+    --accent-brightness: 40%;
+
+    --gradient-toggle: 0;
+    --gradient-hue-shift: 0.2;
+    --gradient-saturation: 50%;
+    --gradient-deg: 179.52deg;
+
+    --customFont: "Segoe UI";
+}
+
+/* Custom CSS below here */

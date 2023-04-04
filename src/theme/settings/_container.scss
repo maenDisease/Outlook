@@ -1,0 +1,161 @@
+#app-mount .layer-86YKbF.layer-86YKbF~.layer-86YKbF .contentColumn-1C7as6:not(.contentColumnMinimal-32PuDO)>div {
+    animation: settingsIn 0.367s cubic-bezier(0.1, 0.9, 0.2, 1) both;
+}
+
+#app-mount .layer-86YKbF~.layer-86YKbF .customColumn-2n-oKU>div {
+    animation: settingsIn 0.367s cubic-bezier(0.1, 0.9, 0.2, 1) both;
+}
+
+@keyframes settingsIn {
+    from {
+        transform: translateX(20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+.layers-OrUESM>.layer-86YKbF.animating-1rIrGV *,
+.layers-OrUESM>.layer-86YKbF.animating-1rIrGV {
+    pointer-events: auto !important;
+    will-change: unset;
+}
+
+#app-mount .layer-86YKbF~.layer-86YKbF {
+    max-width: var(--settingsmodalwidth);
+    width: 1096px !important;
+    border-radius: 8px !important;
+    box-shadow: var(--elevation-modal) !important;
+}
+
+#app-mount .layer-86YKbF.stop-animations:first-child::after {
+    opacity: 0.4 !important;
+}
+
+.sidebarRegion-1VBisG {
+    border-right: 1px solid var(--background-tertiary);
+}
+
+body #app-mount .sidebarRegion-1VBisG {
+    -ms-flex: 0 0 0 !important;
+    flex: 0 0 0 !important;
+}
+
+.contentRegion-3HkfJJ {
+    -ms-flex: 1 1 860px;
+    flex: 1 1 860px;
+}
+
+.contentColumn-1C7as6,
+.customColumn-2n-oKU {
+    max-width: 860px;
+    width: 100%;
+    min-width: unset;
+}
+
+body #app-mount .sidebar-nqHbhN,
+body #app-mount .layer-86YKbF~.layer-86YKbF .sidebar-nqHbhN {
+    width: 228px !important;
+    padding: 20px 0 40px 8px !important;
+}
+
+.sidebar-nqHbhN {
+    min-width: 228px;
+}
+
+.sidebar-nqHbhN .headerText-10ez_d {
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--header-primary);
+    font-weight: 600;
+}
+
+.separator-2N511j {
+    opacity: 0;
+}
+
+.eyebrow-1Shfyi {
+    text-transform: capitalize;
+}
+
+.sidebar-nqHbhN .item-2GWPIy {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+#app-mount .sidebar-nqHbhN .themed-qqoYp3.selected-1sf9UK.item-2GWPIy,
+#app-mount .sidebar-nqHbhN .themed-qqoYp3:not(.selected-1sf9UK).item-2GWPIy:active {
+    background: var(--themeLight);
+}
+
+.sidebar-nqHbhN .selected-1sf9UK.item-2GWPIy,
+.sidebar-nqHbhN .item-2GWPIy:not(.selected-1sf9UK):active {
+    color: var(--themeDark);
+    font-weight: 600;
+}
+
+.sidebar-nqHbhN .side-1lrxIh .item-2GWPIy::before {
+    margin-left: 11px;
+    margin-right: 18px;
+}
+
+.sidebarRegionScroller-FXiQOh {
+    background: var(--bg-overlay-3, var(--gradient-kit-80a)), var(--background-secondary);
+}
+
+
+.contentRegionScroller-2_GT_N {
+    padding-top: 20px;
+    overflow-y: overlay !important;
+    background: var(--bg-overlay-chat, var(--gradient-kit-925a)), var(--background-primary);
+}
+
+.contentRegionScroller-2_GT_N::-webkit-scrollbar-track {
+    margin-top: 63px;
+}
+
+#app-mount .layer-86YKbF~.layer-86YKbF .contentColumnDefault-3eyv5o {
+    padding: 0 20px 40px 20px !important;
+}
+
+.contentColumn-1C7as6>div:first-child>.sectionTitle-LdcnyP,
+.contentColumn-1C7as6>div:not([class]):first-child>div:not([class]):first-child>.sectionTitle-LdcnyP,
+#profile-customization-tab h2,
+#billing-tab>div:not([class]):first-child>div:not([class]):first-child h2,
+#roles-tab div:not([class])>h2,
+#emoji-tab .sectionTitle-LdcnyP,
+#integrations-tab>.flex-2S1XBF:first-child,
+#guild_templates-tab h2,
+#vanity_url-tab h2.title-lXcL8p {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    top: 0;
+    width: 200%;
+    padding: 20px;
+    margin-left: -21px;
+    z-index: 10;
+    transform: translateY(-20px);
+    background: var(--bg-overlay-chat, var(--gradient-kit-925a)), var(--background-primary);
+    border-bottom: 1px solid var(--background-tertiary);
+}
+
+.contentColumn-1C7as6>div:first-child>.sectionTitle-LdcnyP h2,
+.contentColumn-1C7as6>div:not([class]):first-child>div:not([class]):first-child>.sectionTitle-LdcnyP h2,
+#profile-customization-tab h2,
+#billing-tab>div:not([class]):first-child>div:not([class]):first-child h2,
+#roles-tab div:not([class])>h2,
+#emoji-tab .sectionTitle-LdcnyP h2,
+#integrations-tab>.flex-2S1XBF:first-child h2,
+#guild_templates-tab h2,
+#vanity_url-tab h2.title-lXcL8p {
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 600;
+    margin-bottom: 0;
+}

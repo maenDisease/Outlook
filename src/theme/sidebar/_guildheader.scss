@@ -1,0 +1,95 @@
+#app-mount .header-3OsQeK {
+    position: fixed;
+    z-index: 999;
+    top: calc(var(--titlebar-height) + var(--panel-spacing) + 4px);
+    background: var(--brand-experiment);
+    padding: 0;
+    margin-left: calc(8px + 4px);
+    border-radius: 4px 0 0 4px;
+    height: 32px;
+    padding: 0 12px 0 9px;
+    display: flex;
+    align-items: center;
+    width: 180px;
+}
+
+.header-3OsQeK .headerContent-2SNbie {
+    filter: none;
+    max-width: 100%;
+}
+
+.header-3OsQeK .text-md-semibold-2VMhBr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+}
+
+.headerChildren-2qV9P8 {
+    background: var(--brand-experiment);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -29px;
+    border-radius: 0 4px 4px 0;
+    width: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#app-mount .header-3OsQeK:hover,
+.headerChildren-2qV9P8:hover {
+    background: var(--brand-experiment-680);
+}
+
+.headerChildren-2qV9P8 .button-2BMPJJ {
+    opacity: 1;
+    margin-left: unset;
+}
+
+.flowerStarContainer-1QeD-L {
+    height: 24px !important;
+    width: 24px !important;
+}
+
+.guildIconContainer-3QvE6w {
+    overflow: hidden;
+}
+
+.flowerStarContainer-1QeD-L[class*="iconBackgroundTier"] {
+    scale: 1.8;
+}
+
+#app-mount .flowerStarContainer-1QeD-L {
+    color: transparent;
+}
+
+.communityInfoVisible-3zc5_s .communityInfoContainer-1dMVpU {
+    margin-top: 0;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    order: -1;
+}
+
+.communityInfoPill-2Mll66 {
+    padding: 0;
+    background: none;
+    border-radius: unset;
+    margin-right: 0;
+}
+
+.communityIcon-28UI1f {
+    height: 20px;
+    width: 20px;
+    margin-right: 0;
+}
+
+.communityIcon-28UI1f+div {
+    display: none;
+}

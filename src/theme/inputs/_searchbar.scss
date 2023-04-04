@@ -1,0 +1,81 @@
+.searchBar-2aylmZ {
+    margin: 16px 16px 0 16px;
+    background: var(--background-secondary);
+    border: 1px solid var(--neutralTertiary);
+}
+
+.searchBar-2aylmZ .inner-2pOSmK {
+    padding: 0;
+}
+
+.search-39IXmY {
+    margin: 0;
+    position: fixed;
+    top: 8px;
+    left: 320px;
+}
+
+.searchBar-jGtisZ {
+    height: 32px;
+    min-width: 350px;
+    flex: 1 1 350px;
+    background: var(--brand-experiment-200);
+}
+
+.theme-dark .searchBar-jGtisZ {
+    background: var(--brand-experiment-700);
+}
+
+.focused-1xh-wG .searchBar-jGtisZ,
+.open-1F8u2c .searchBar-jGtisZ {
+    max-width: 928px;
+    background: var(--background-primary);
+    width: unset;
+}
+
+.searchBar-jGtisZ .icon-tZMHgY {
+    width: 32px;
+    height: 32px;
+    transform: scaleX(-1);
+    order: -1;
+}
+
+.searchBar-jGtisZ .icon-tZMHgY .iconContainer-1RqWJj {
+    height: 20px;
+    width: 20px;
+}
+
+.search-2Mwzzq .DraftEditor-root {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 6px 0;
+}
+
+.search-2Mwzzq .DraftEditor-root .public-DraftEditorPlaceholder-root {
+    color: var(--brand-experiment-600);
+}
+
+.theme-dark .search-2Mwzzq .DraftEditor-root .public-DraftEditorPlaceholder-root,
+.theme-dark .searchBar-jGtisZ .icon-18rqoe {
+    color: var(--brand-experiment-130);
+}
+
+.searchBar-3TnChZ {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.input-3r5zZY {
+    padding: 0 12px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: 1px solid var(--neutralTertiary);
+    height: 52px;
+    line-height: 52px;
+    color: var(--text-normal);
+    background: var(--background-secondary);
+}

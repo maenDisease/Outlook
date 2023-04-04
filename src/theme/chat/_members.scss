@@ -1,0 +1,24 @@
+.membersWrap-3NUR2t {
+    background: var(--bg-overlay-chat, var(--gradient-kit-925a)), var(--background-primary);
+    border-radius: 4px;
+    border: 1px solid var(--background-tertiary);
+    padding-bottom: 4px;
+    margin-left: var(--panel-spacing);
+    height: fit-content;
+}
+
+.container-2o3qEW,
+.member-48YF_l,
+.members-3WRCEx {
+    background: none;
+}
+
+.membersWrap-3NUR2t .name-3Vmqxm {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.selected-1-Z6gm .layout-1qmrhw,
+.clickable-28SzVr:active .layout-1qmrhw {
+    background: var(--themeLight);
+}

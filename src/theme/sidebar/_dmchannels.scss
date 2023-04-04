@@ -1,0 +1,23 @@
+.privateChannels-oVe7HL,
+#app-mount .scroller-WSmht3 {
+    background: none;
+}
+
+.name-2m3Cms {
+    font-size: 12px;
+}
+
+.container-q97qHp {
+    text-transform: capitalize;
+}
+
+.selected-26oxtA,
+.interactiveSelected-29CP8y.selected-26oxtA {
+    color: var(--interactive-active);
+    background: var(--bg-overlay-selected, var(--gradient-kit-60a)), var(--secondarySurfaceSelected);
+}
+
+.selected-26oxtA .name-2m3Cms,
+.interactiveSelected-29CP8y.selected-26oxtA .name-2m3Cms {
+    font-weight: 600;
+}

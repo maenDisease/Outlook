@@ -1,0 +1,80 @@
+#app-mount .elevationBorderHigh-3drnJX {
+    -webkit-box-shadow: var(--elevation-high);
+    box-shadow: var(--elevation-high);
+}
+
+.container-2McqkF {
+    border-radius: 8px;
+}
+
+.resultsGroup-cfY57t {
+    padding-bottom: 0;
+}
+
+.resultsGroup-cfY57t:before {
+    margin: 0;
+}
+
+.resultsGroup-cfY57t .header-1BR0Ro {
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 12px;
+    text-transform: capitalize;
+    padding: 0;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    color: var(--header-primary);
+    letter-spacing: unset;
+}
+
+.option-ayUoaq {
+    font-size: 14px;
+    margin: 0;
+    padding: 0 8px;
+    height: 36px;
+    border-radius: 0;
+}
+
+#app-mount .react-datepicker__navigation {
+    top: 14px;
+    padding: 0;
+    height: 32px;
+    width: 32px;
+    border: none;
+    border-radius: 4px;
+}
+
+#app-mount .react-datepicker__navigation:hover {
+    background: var(--background-modifier-hover);
+}
+
+#app-mount .react-datepicker__navigation:active {
+    background: var(--background-modifier-active);
+}
+
+.calendarPicker-sDhzdi .react-datepicker__current-month {
+    border-bottom: none;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+#app-mount .calendarPicker-sDhzdi .react-datepicker__day {
+    border: none;
+}
+
+#app-mount .calendarPicker-sDhzdi .react-datepicker__day:not(.react-datepicker__day--selected, .react-datepicker__day--keyboard-selected):hover {
+    background: var(--background-modifier-hover);
+}
+
+#app-mount .calendarPicker-sDhzdi .react-datepicker__day:not(.react-datepicker__day--selected, .react-datepicker__day--keyboard-selected):active {
+    background: var(--background-modifier-active);
+}
+
+.calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--keyboard-selected {
+    color: white;
+}
+
+#app-mount .focused-2FU0YH {
+    background-color: var(--background-floating);
+}

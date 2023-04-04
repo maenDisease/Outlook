@@ -1,0 +1,235 @@
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/ProfileBannerSkins.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
+
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+@import url(https://stickfab.github.io/pc-fluenticons/src/fluenticons-base.css);
+@import url(https://stickfab.github.io/pc-fluenticons/src/fluenticons-context.css);
+@import url(https://nyri4.github.io/Discolored/main.css);
+
+@font-face {
+    font-family: "Segoe UI";
+    src: local("Segoe UI Light"), url("https://discordstyles.github.io/Fluent/fonts/light.woff2") format("woff2");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Segoe UI";
+    src: local("Segoe UI Semilight"), url("https://discordstyles.github.io/Fluent/fonts/semilight.woff2") format("woff2");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Segoe UI";
+    src: local("Segoe UI"), url("https://discordstyles.github.io/Fluent/fonts/normal.woff2") format("woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Segoe UI";
+    src: local("Segoe UI Semibold"), url("https://discordstyles.github.io/Fluent/fonts/semibold.woff2") format("woff2");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Segoe UI";
+    src: local("Segoe UI Bold"), url("https://discordstyles.github.io/Fluent/fonts/bold.woff2") format("woff2");
+    font-weight: 700;
+}
+
+:root {
+    --titlebar-height: 48px;
+    --panel-spacing: 8px;
+    --notices-height: 36px;
+
+    --font-display: var(--customFont), "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    --font-primary: var(--customFont), "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+}
+
+#app-mount:has(.themeEditor-1Ebyfp) {
+    --theme-preview-width: 260px;
+}
+
+.theme-light,
+.theme-dark {
+    --elevation-modal: 0px 25.6px 57.6px 0px rgba(0, 0, 0, 0.22), 0px 4.8px 14.4px 0px rgba(0, 0, 0, 0.18);
+    --elevation-medium: 0 1.6px 3.6px 0 hsla(0, 0%, 0%, 0.132), 0 0.3px 0.9px 0 hsla(0, 0%, 0%, 0.108);
+    --elevation-high: 0 8px 16px hsla(0, 0%, 0%, 0.14), 0 0 2px hsla(0, 0%, 0%, 0.12);
+
+    --status-positive: hsl(118, calc(var(--saturation-factor, 1) * 84%), 34%);
+    --status-warning: hsl(47, calc(var(--saturation-factor, 1) * 100%), 60%);
+    --status-danger: hsl(0, calc(var(--saturation-factor, 1) * 69%), 51%);
+    --status-grey: hsl(240, 2%, 57%);
+
+    --status-red-500: var(--status-danger);
+    --status-yellow-500: var(--status-warning);
+    --status-green-600: var(--status-positive);
+    --status-grey-500: var(--status-grey);
+
+    --input-background: var(--background-secondary);
+    --modal-background: var(--background-primary);
+    --scroller-hover-color: hsl(193, 7%, 62%);
+
+    --n-note-box-shadow: 0 6.4px 14.4px rgba(0, 0, 0, .13), 0 1.2px 3.6px rgba(0, 0, 0, .1);
+    --elevation-card: 0 1px 2px rgba(0, 0, 0, .08), 0 3px 8px rgba(0, 0, 0, .1);
+
+    --search-popout-option-fade: linear-gradient(90deg, transparent, var(--background-floating) 80%);
+}
+
+:root {
+    --settingsmodalbackground: transparent;
+    --settingsmodalwidth: calc(100vw - 80px);
+    --settingsmodalheight: calc(100vh - 80px);
+
+    --use-settingsicons: calc(var(--settingsicons, 1) / (var(--settingsicons, 1) + 0.00000000000000000000001));
+    --settingsicons-size: 16px;
+    --settingsicons-gap: 14px;
+
+    --settingsicons-default: url(https://stickfab.github.io/pc-fluenticons/assets/20/window_settings.svg);
+    --settingsicons-myaccount: url(https://stickfab.github.io/pc-fluenticons/assets/24/person.svg);
+    --settingsicons-profile: url(https://stickfab.github.io/pc-fluenticons/assets/24/edit.svg);
+    --settingsicons-privacy: url(https://stickfab.github.io/pc-fluenticons/assets/24/shield_lock.svg);
+    --settingsicons-apps: url(https://stickfab.github.io/pc-fluenticons/assets/24/apps.svg);
+    --settingsicons-sessions: url(https://stickfab.github.io/pc-fluenticons/assets/24/phone_desktop.svg);
+    --settingsicons-connections: url(https://stickfab.github.io/pc-fluenticons/assets/24/plug_connected.svg);
+    --settingsicons-friendrequests: url(https://stickfab.github.io/pc-fluenticons/assets/24/person_add.svg);
+    --settingsicons-nitro: url(https://stickfab.github.io/pc-fluenticons/assets/24/nitro.svg);
+    --settingsicons-boosts: url(https://stickfab.github.io/pc-fluenticons/assets/24/boost.svg);
+    --settingsicons-subscriptions: url(https://stickfab.github.io/pc-fluenticons/assets/24/star.svg);
+    --settingsicons-gifts: url(https://stickfab.github.io/pc-fluenticons/assets/24/gift.svg);
+    --settingsicons-billing: url(https://stickfab.github.io/pc-fluenticons/assets/24/receipt.svg);
+    --settingsicons-appearance: url(https://stickfab.github.io/pc-fluenticons/assets/24/paint_bucket.svg);
+    --settingsicons-accessibility: url(https://stickfab.github.io/pc-fluenticons/assets/24/accessibility.svg);
+    --settingsicons-voice: url(https://stickfab.github.io/pc-fluenticons/assets/24/mic.svg);
+    /* --settingsicons-powermode: url(); */
+    --settingsicons-text: url(https://stickfab.github.io/pc-fluenticons/assets/24/image.svg);
+    --settingsicons-notifications: url(https://stickfab.github.io/pc-fluenticons/assets/24/alert.svg);
+    --settingsicons-keybinds: url(https://stickfab.github.io/pc-fluenticons/assets/24/keyboard.svg);
+    --settingsicons-language: url(https://stickfab.github.io/pc-fluenticons/assets/24/local_language.svg);
+    --settingsicons-windows: url(https://stickfab.github.io/pc-fluenticons/assets/24/window.svg);
+    --settingsicons-streamermode: url(https://stickfab.github.io/pc-fluenticons/assets/24/live.svg);
+    --settingsicons-advanced: url(https://stickfab.github.io/pc-fluenticons/assets/24/wrench.svg);
+    --settingsicons-activityprivacy: url(https://stickfab.github.io/pc-fluenticons/assets/16/games_lock.svg);
+    --settingsicons-games: url(https://stickfab.github.io/pc-fluenticons/assets/24/games.svg);
+    --settingsicons-overlay: url(https://stickfab.github.io/pc-fluenticons/assets/24/picture_in_picture.svg);
+    --settingsicons-bd-settings: url(https://stickfab.github.io/pc-fluenticons/assets/24/options.svg);
+    --settingsicons-bd-changelog: url(https://stickfab.github.io/pc-fluenticons/assets/24/history.svg);
+    --settingsicons-bd-customcss: url(https://stickfab.github.io/pc-fluenticons/assets/24/code.svg);
+    --settingsicons-bd-plugins: url(https://stickfab.github.io/pc-fluenticons/assets/24/puzzle_piece.svg);
+    --settingsicons-bd-themes: url(https://stickfab.github.io/pc-fluenticons/assets/24/paint_brush.svg);
+    /* --settingsicons-bd-pluginrepo: url(); */
+    /* --settingsicons-bd-themerepo: url(); */
+    --settingsicons-changelog: url(https://stickfab.github.io/pc-fluenticons/assets/24/history.svg);
+    --settingsicons-hypesquad: url(https://stickfab.github.io/pc-fluenticons/assets/24/hypesquad.svg);
+    --settingsicons-experiments: url(https://stickfab.github.io/pc-fluenticons/assets/24/beaker.svg);
+    --settingsicons-developer: url(https://stickfab.github.io/pc-fluenticons/assets/24/code.svg);
+    --settingsicons-hotspots: url(https://stickfab.github.io/pc-fluenticons/assets/24/communication.svg);
+    --settingsicons-dismissable: url(https://stickfab.github.io/pc-fluenticons/assets/24/dismiss_circle.svg);
+    --settingsicons-paymentmodals: url(https://stickfab.github.io/pc-fluenticons/assets/24/payment.svg);
+    /* --settingsicons-textplayground: url(); */
+    /* --settingsicons-textcomponent: url(); */
+    --settingsicons-logout: url(https://stickfab.github.io/pc-fluenticons/assets/20/door_arrow_right.svg);
+}
+
+:root {
+    --brand-experiment: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%);
+    --brand-experiment-100: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 98%);
+    --brand-experiment-130: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 93.2%);
+    --brand-experiment-160: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 88.3%);
+    --brand-experiment-200: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 83.5%);
+    --brand-experiment-230: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 78.7%);
+    --brand-experiment-260: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 73.8%);
+    --brand-experiment-300: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 69%);
+    --brand-experiment-330: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 64.2%);
+    --brand-experiment-360: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 59.3%);
+    --brand-experiment-400: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 54.5%);
+    --brand-experiment-430: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 49.7%);
+    --brand-experiment-460: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 44.8%);
+    --brand-experiment-500: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%);
+    --brand-experiment-530: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*63.8%), 36.9%);
+    --brand-experiment-560: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*51%), 33.8%);
+    --brand-experiment-600: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*46.6%), 30.8%);
+    --brand-experiment-630: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*46.6%), 27.7%);
+    --brand-experiment-660: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*46.6%), 24.6%);
+    --brand-experiment-680: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*81%), 30%);
+    --brand-experiment-700: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*46.6%), 21.5%);
+    --brand-experiment-730: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*46.6%), 18.4%);
+    --brand-experiment-760: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*46.6%), 15.3%);
+    --brand-experiment-800: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*46.6%), 12.3%);
+    --brand-experiment-830: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*46.6%), 9.2%);
+    --brand-experiment-860: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*46.6%), 6.1%);
+    --brand-experiment-900: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*46.6%), 3%);
+    --brand-experiment-05a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.05);
+    --brand-experiment-10a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.1);
+    --brand-experiment-15a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.15);
+    --brand-experiment-20a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.2);
+    --brand-experiment-25a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.25);
+    --brand-experiment-30a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.3);
+    --brand-experiment-35a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.35);
+    --brand-experiment-40a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.4);
+    --brand-experiment-45a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.45);
+    --brand-experiment-50a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.5);
+    --brand-experiment-55a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.55);
+    --brand-experiment-60a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.6);
+    --brand-experiment-65a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.65);
+    --brand-experiment-70a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.7);
+    --brand-experiment-75a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.75);
+    --brand-experiment-80a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.8);
+    --brand-experiment-85a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.85);
+    --brand-experiment-90a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.9);
+    --brand-experiment-95a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.95);
+
+    --brand-100: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 77.8%), 98.2%);
+    --brand-130: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 87.5%), 96.9%);
+    --brand-160: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 84.6%), 94.9%);
+    --brand-200: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 83.3%), 92.9%);
+    --brand-230: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 87%), 91%);
+    --brand-260: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 86.2%), 88.6%);
+    --brand-300: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 86.1%), 85.9%);
+    --brand-330: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 85.1%), 81.6%);
+    --brand-345: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 85.2%), 78.8%);
+    --brand-360: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 86.1%), 77.5%);
+    --brand-400: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 86.1%), 71.8%);
+    --brand-430: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 85.7%), 69.8%);
+    --brand-460: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 85.5%), 67.5%);
+    --brand-500: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 85.6%), 64.7%);
+    --brand-530: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 66.7%), 58.8%);
+    --brand-560: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 51.4%), 52.4%);
+    --brand-600: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 46.7%), 44.1%);
+    --brand-630: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 46.7%), 38.2%);
+    --brand-660: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 47.1%), 33.3%);
+    --brand-700: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 47%), 25.9%);
+    --brand-730: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 46.8%), 24.3%);
+    --brand-760: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 46.9%), 22.2%);
+    --brand-800: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 47.5%), 19.4%);
+    --brand-830: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 47.4%), 14.9%);
+    --brand-860: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 46.9%), 9.6%);
+    --brand-900: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 50%), 3.1%);
+    --brand-new-100: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 77.8%), 98.2%);
+    --brand-new-130: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 87.5%), 96.9%);
+    --brand-new-160: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 84.6%), 94.9%);
+    --brand-new-200: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 83.3%), 92.9%);
+    --brand-new-230: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 87%), 91%);
+    --brand-new-260: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 86.2%), 88.6%);
+    --brand-new-300: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 86.1%), 85.9%);
+    --brand-new-330: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 85.1%), 81.6%);
+    --brand-new-345: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 85.2%), 78.8%);
+    --brand-new-360: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 86.1%), 77.5%);
+    --brand-new-400: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 86.1%), 71.8%);
+    --brand-new-430: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 85.7%), 69.8%);
+    --brand-new-460: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 85.5%), 67.5%);
+    --brand-new-500: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 85.6%), 64.7%);
+    --brand-new-530: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 66.7%), 58.8%);
+    --brand-new-560: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 51.4%), 52.4%);
+    --brand-new-600: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 46.7%), 44.1%);
+    --brand-new-630: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 46.7%), 38.2%);
+    --brand-new-660: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 47.1%), 33.3%);
+    --brand-new-700: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 47%), 25.9%);
+    --brand-new-730: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 46.8%), 24.3%);
+    --brand-new-760: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 46.9%), 22.2%);
+    --brand-new-800: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 47.5%), 19.4%);
+    --brand-new-830: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 47.4%), 14.9%);
+    --brand-new-860: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 46.9%), 9.6%);
+    --brand-new-900: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 50%), 3.1%);
+}

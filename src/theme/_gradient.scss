@@ -1,0 +1,41 @@
+.theme-light:root {
+    --rgb-overlay: 255 255 255;
+    --rgb-overlay-inverse: 0 0 0;
+}
+
+.theme-dark:root {
+    --rgb-overlay: 14 14 14;
+    --rgb-overlay-inverse: 255 255 255;
+}
+
+:root {
+    --alpha-925a: 0.925;
+    --alpha-90a: 0.9;
+    --alpha-80a: 0.8;
+    --alpha-70a: 0.7;
+    --alpha-60a: 0.6;
+    --alpha-50a: 0.5;
+    --alpha-40a: 0.4;
+    --alpha-30a: 0.3;
+    --alpha-20a: 0.2;
+    --alpha-10a: 0.1;
+
+    --gradient-1-hsl: var(--accent-hue) calc(var(--saturation-factor, 1)*var(--gradient-saturation)) 40%;
+    --gradient-2-hsl: calc(var(--accent-hue) - (var(--gradient-hue-shift) * 100)) calc(var(--saturation-factor, 1)*var(--gradient-saturation)) 40%;
+    --gradient-3-hsl: calc(var(--accent-hue) - (var(--gradient-hue-shift) * 100)) calc(var(--saturation-factor, 1)*calc(var(--gradient-saturation) + 10%)) 50%;
+    --gradient-1: hsl(var(--gradient-1-hsl)/1);
+    --gradient-2: hsl(var(--gradient-2-hsl)/1);
+    --gradient-3: hsl(var(--gradient-3-hsl)/1);
+    --gradient-band: linear-gradient(var(--gradient-deg), var(--gradient-1) 6.15%, var(--gradient-2) 48.7%, var(--gradient-3) 93.07%) fixed center/calc(100% * var(--gradient-toggle));
+
+    --gradient-kit-925a: linear-gradient(rgb(var(--rgb-overlay)/var(--alpha-925a)), rgb(var(--rgb-overlay)/var(--alpha-925a))) fixed center/calc(100% * var(--gradient-toggle)), var(--gradient-band);
+    --gradient-kit-90a: linear-gradient(rgb(var(--rgb-overlay)/var(--alpha-90a)), rgb(var(--rgb-overlay)/var(--alpha-90a))) fixed center/calc(100% * var(--gradient-toggle)), var(--gradient-band);
+    --gradient-kit-80a: linear-gradient(rgb(var(--rgb-overlay)/var(--alpha-80a)), rgb(var(--rgb-overlay)/var(--alpha-80a))) fixed center/calc(100% * var(--gradient-toggle)), var(--gradient-band);
+    --gradient-kit-70a: linear-gradient(rgb(var(--rgb-overlay)/var(--alpha-70a)), rgb(var(--rgb-overlay)/var(--alpha-70a))) fixed center/calc(100% * var(--gradient-toggle)), var(--gradient-band);
+    --gradient-kit-60a: linear-gradient(rgb(var(--rgb-overlay)/var(--alpha-60a)), rgb(var(--rgb-overlay)/var(--alpha-60a))) fixed center/calc(100% * var(--gradient-toggle)), var(--gradient-band);
+    --gradient-kit-50a: linear-gradient(rgb(var(--rgb-overlay)/var(--alpha-50a)), rgb(var(--rgb-overlay)/var(--alpha-50a))) fixed center/calc(100% * var(--gradient-toggle)), var(--gradient-band);
+    --gradient-kit-40a: linear-gradient(rgb(var(--rgb-overlay)/var(--alpha-40a)), rgb(var(--rgb-overlay)/var(--alpha-40a))) fixed center/calc(100% * var(--gradient-toggle)), var(--gradient-band);
+    --gradient-kit-30a: linear-gradient(rgb(var(--rgb-overlay)/var(--alpha-30a)), rgb(var(--rgb-overlay)/var(--alpha-30a))) fixed center/calc(100% * var(--gradient-toggle)), var(--gradient-band);
+    --gradient-kit-20a: linear-gradient(rgb(var(--rgb-overlay)/var(--alpha-20a)), rgb(var(--rgb-overlay)/var(--alpha-20a))) fixed center/calc(100% * var(--gradient-toggle)), var(--gradient-band);
+    --gradient-kit-10a: linear-gradient(rgb(var(--rgb-overlay)/var(--alpha-10a)), rgb(var(--rgb-overlay)/var(--alpha-10a))) fixed center/calc(100% * var(--gradient-toggle)), var(--gradient-band);
+}

@@ -1,0 +1,66 @@
+#app-mount .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
+#app-mount .wrapper-3kah-n:hover .childWrapper-1j_1ub {
+    color: var(--brand-experiment);
+}
+
+#app-mount .wrapper-3kah-n:hover .childWrapper-1j_1ub {
+    background: var(--background-primary);
+}
+
+#app-mount .wrapper-3kah-n:active .childWrapper-1j_1ub {
+    background: var(--background-modifier-active);
+}
+
+.tutorialContainer-1pL9QS foreignObject,
+.tutorialContainer-1pL9QS+.listItem-3SmSlK foreignObject,
+.tutorialContainer-2jwoiB foreignObject,
+.tutorialContainer-2jwoiB+.listItem-3SmSlK foreignObject {
+    mask: none;
+    border-radius: 4px;
+}
+
+#app-mount .childWrapper-1j_1ub,
+#app-mount .circleIconButton-1VxDrg {
+    background: none;
+}
+
+.circleIconButton-1VxDrg {
+    color: var(--text-muted);
+}
+
+#app-mount .circleIconButton-1VxDrg:hover {
+    background: var(--background-primary);
+}
+
+#app-mount .circleIconButton-1VxDrg:active {
+    background: var(--background-modifier-active);
+}
+
+#app-mount .circleIconButton-1VxDrg.selected-2r1Hvo {
+    color: var(--brand-experiment);
+}
+
+.item-2LIpTv {
+    position: absolute;
+    display: block;
+    width: 4px;
+    border-radius: 2px;
+    margin-left: 2px;
+    background: var(--brand-experiment);
+}
+
+.listItem-3SmSlK .wrapper-2PSQCG .icon-3AqZ2e {
+    transform-origin: center;
+    scale: 0.6;
+    border-radius: 8px;
+}
+
+.blobContainer-ikKyFs:hover {
+    background: var(--background-primary);
+    border-radius: 4px;
+}
+
+.blobContainer-ikKyFs:active {
+    background: var(--background-secondary);
+    border-radius: 4px;
+}

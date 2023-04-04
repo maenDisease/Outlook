@@ -1,0 +1,30 @@
+#app-mount:not(:-webkit-full-screen) .content-1SgpWY {
+    margin-top: calc(40px + 16px);
+    margin-right: 19px;
+}
+
+.chat-2ZfjoI {
+    background: none;
+}
+
+.chatContent-3KubbW {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top: 1px solid var(--neutralTertiary);
+    border-left: 1px solid var(--neutralTertiary);
+    border-right: 1px solid var(--neutralTertiary);
+    background: var(--bg-overlay-chat, var(--gradient-kit-925a)), var(--background-primary);
+}
+
+.container-3XgAHv .chatContent-3KubbW {
+    overflow: hidden;
+}
+
+.content-1jQy2l:before {
+    display: none;
+}
+
+.wrapper-3HVHpV,
+.wrapper-15CKyy {
+    background: none;
+}

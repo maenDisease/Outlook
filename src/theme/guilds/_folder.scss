@@ -1,0 +1,59 @@
+.wrapper-38slSD foreignObject {
+    mask: none;
+    border-radius: 4px;
+}
+
+.folder-241Joy {
+    cursor: pointer;
+    background: none;
+}
+
+.folderIconWrapper-1oRIZr {
+    background: none !important;
+    transform: rotate(-90deg);
+}
+
+.closedFolderIconWrapper-3tRb2d {
+    padding: 6px;
+}
+
+.closedFolderIconWrapper-3tRb2d .icon-1zKOXL,
+.expandedFolderIconWrapper-3RwQpD svg {
+    transform: rotate(90deg);
+}
+
+.expandedFolderBackground-1kSAf6 {
+    height: 48px;
+    border-radius: 4px;
+}
+
+.wrapper-38slSD:active {
+    -webkit-transform: unset;
+    transform: none;
+}
+
+[id^="folder-items-"] {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 99;
+    overflow-y: auto;
+    max-height: calc(100vh - 72px);
+    margin: auto auto auto calc(72px - 7px);
+    padding-top: 8px;
+    border-radius: 4px;
+    background: var(--background-floating);
+    -webkit-box-shadow: var(--elevation-high);
+    box-shadow: var(--elevation-high);
+}
+
+[id^="folder-items-"]::-webkit-scrollbar {
+    display: none;
+}
+
+[id^="folder-items-"] .blobContainer-ikKyFs:hover {
+    background: var(--background-modifier-hover);
+    box-shadow:
+        0 0.3px 0.9px rgba(0, 0, 0, 0.07),
+        0 1.6px 3.6px rgba(0, 0, 0, 0.11);
+}

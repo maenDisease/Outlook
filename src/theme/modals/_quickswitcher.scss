@@ -1,0 +1,27 @@
+.quickswitcher-pKcM9U {
+    -webkit-box-shadow: var(--elevation-modal);
+    box-shadow: var(--elevation-modal);
+    background: var(--bg-overlay-chat, var(--gradient-kit-925a)), var(--background-primary);
+}
+
+.scroller-2qwVWY {
+    background: none;
+    --background-secondary-alt: transparent;
+}
+
+.scroller-2qwVWY::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.header-1ZpMzy {
+    font-size: 14px;
+    text-transform: capitalize;
+    letter-spacing: unset;
+    color: var(--header-primary);
+}
+
+.result-u66Ywh {
+    border-radius: 4px;
+    font-size: 14px;
+    height: 34px;
+}

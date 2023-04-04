@@ -1,0 +1,14 @@
+.container-2kTWmC {
+    background: var(--background-floating);
+    border-radius: 8px;
+    padding: 16px;
+    border: none;
+    -webkit-box-shadow: var(--elevation-high);
+    box-shadow: var(--elevation-high);
+}
+
+.focused-3v9Ulm:active,
+.item-1Mjtru:active:not(.disabled-Lzz-qs) {
+    background: var(--background-modifier-active);
+    color: var(--interactive-active);
+}

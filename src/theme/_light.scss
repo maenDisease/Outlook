@@ -1,0 +1,47 @@
+.theme-light {
+    --background-primary: hsl(0, 0%, 100%);
+    --background-secondary: hsl(0, 0%, 98%);
+    --background-tertiary: hsl(0, 0%, 94%);
+
+    --background-modifier-hover: hsla(0, 0%, 0%, 4%);
+    --background-modifier-active: hsla(0, 0%, 0%, 10%);
+    --background-modifier-selected: hsla(0, 0%, 0%, 4%);
+
+    --background-modifier-hover-border: hsla(0, 0%, 0%, 8%);
+    --background-modifier-active-border: hsla(0, 0%, 0%, 8%);
+    --background-modifier-selected-border: hsla(0, 0%, 0%, 60%);
+
+    --interactive-active: hsl(0, 0%, 26%);
+
+    --header-primary: hsl(0, 0%, 26%);
+    --text-muted: hsl(0, 0%, 50%);
+    --channel-icon: hsl(0, 0%, 50%);
+    --channels-default: hsl(0, 0%, 26%);
+    --scroller-color: hsl(0, 0%, 88%);
+    --scroller-hover-color: hsl(193, 7%, 62%);
+
+    --n-yellow-canvas: hsl(50, 100%, 90%);
+    --n-yellow-stroke: hsl(51, 100%, 79%);
+    --n-green-canvas: hsl(110, 50%, 93%);
+    --n-green-stroke: hsl(109, 44%, 86%);
+    --n-blue-canvas: hsl(210, 100%, 95%);
+    --n-blue-stroke: hsl(208, 100%, 90%);
+    --n-gray-canvas: hsl(30, 10%, 92%);
+    --n-gray-stroke: hsl(24, 7%, 86%);
+    --n-preview-box-shadow-selected: 0 0 0 1px rgba(0, 0, 0, .4);
+
+    --neutralLighterAlt: hsl(0, 0%, 98%);
+    --neutralQuaternary: hsl(0, 0%, 90%);
+    --neutralDark: hsl(0, 0%, 14%);
+    --neutralTertiary: hsl(0, 0%, 82%);
+    --themeLight: hsl(var(--accent-hue), 87%, 84%);
+    --themeDark: hsl(var(--accent-hue), 81%, 30%);
+    --themeDarkAlt: hsl(var(--accent-hue), 81%, 35%);
+    --secondarySurfaceSelected: hsl(var(--accent-hue), 81%, 90%);
+
+    --search-popout-option-fade-hover: linear-gradient(90deg, transparent, hsl(0, 0%, 96%) 50%);
+}
+
+.theme-light .topControls-23RE3h {
+    --background-primary: hsl(0, 0%, 100%);
+}

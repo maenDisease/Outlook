@@ -1,0 +1,81 @@
+#app-mount .container-1NXEtd {
+    background: none;
+}
+
+.animatedContainer-2laTjx {
+    scale: 0.93;
+    border-radius: 4px;
+}
+
+.content-1gYQeQ .name-28HaxV {
+    font-size: 12px;
+}
+
+.content-1gYQeQ .icon-2W8DHg {
+    display: block;
+    width: 16px;
+    height: 16px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+
+.content-1gYQeQ {
+    padding-left: 24px;
+}
+
+.typeThread-2Aqh6X .content-1gYQeQ {
+    margin-left: 48px;
+}
+
+.spine-29OFwR,
+.spineBorder-1-F4s1 {
+    left: 36px;
+}
+
+.wrapper-1S43wv .container-q97qHp {
+    text-transform: capitalize;
+    margin-left: 18px;
+}
+
+.wrapper-1S43wv .icon-3zI3d2 {
+    left: 12px;
+    top: 4px;
+    width: 16px;
+    height: 16px;
+}
+
+.modeSelected-3DmyhH .content-1gYQeQ,
+.modeSelected-3DmyhH:hover .content-1gYQeQ {
+    background: var(--bg-overlay-selected, var(--gradient-kit-60a)), var(--secondarySurfaceSelected);
+}
+
+.modeSelected-3DmyhH .icon-2W8DHg,
+.modeSelected-3DmyhH:hover .icon-2W8DHg {
+    color: var(--interactive-active);
+}
+
+.modeConnected-NrO4cP .name-28HaxV,
+.modeConnected-NrO4cP:hover .name-28HaxV,
+.modeSelected-3DmyhH .name-28HaxV,
+.modeSelected-3DmyhH:hover .name-28HaxV,
+.modeUnread-3Cxepe .name-28HaxV,
+.modeUnread-3Cxepe:hover .name-28HaxV,
+.notInteractive-2tFrlE.modeConnected-NrO4cP .name-28HaxV,
+.notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV {
+    font-weight: 600;
+}
+
+.unread-36eUEm {
+    position: absolute;
+    height: 16px;
+    width: 4px;
+    border-radius: 2px;
+    top: 50%;
+    left: 2px;
+    margin-top: -8px;
+}
+
+.unreadRelevant-2f-VSK {
+    background: var(--brand-experiment);
+}

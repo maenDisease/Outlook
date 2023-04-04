@@ -1,0 +1,116 @@
+.header-1ffhsl {
+    border-radius: 8px 8px 0 0;
+}
+
+.modalHeader-X-sQsB .justifyStart-2Mwniq {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+}
+
+.headerText-27nUQU {
+    font-weight: 600;
+}
+
+.headerDescription-yFPU-Q {
+    text-align: start;
+    padding: 0;
+}
+
+.segmentControl-3edJKN {
+    padding: 0 24px;
+}
+
+.sourceContainer-1uqUbz {
+    padding: 24px;
+    gap: 12px;
+}
+
+.sourceContainer-1uqUbz .tile-3POX2m {
+    border-radius: 4px;
+    flex: 0 1 calc(50% - 12px) !important;
+    border: 1px solid var(--neutralTertiary);
+}
+
+.sourceContainer-1uqUbz .tile-3POX2m:hover {
+    background: var(--background-modifier-hover);
+}
+
+.sourceContainer-1uqUbz .tile-3POX2m:active {
+    background: var(--background-modifier-active);
+}
+
+.sourceContainer-1uqUbz .tile-3POX2m.selected-1i-g6T {
+    background: var(--themeLight);
+}
+
+#app-mount .tile-3POX2m .sourceThumbnail-ERDcZE {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.tile-3POX2m.selected-1i-g6T .sourceName-3Wf8QG {
+    color: var(--themeDark);
+}
+
+#app-mount .tabItemSelected-Z0xl-W {
+    color: var(--header-primary);
+    border-bottom: none;
+    font-weight: 600;
+}
+
+.tabItemSelected-Z0xl-W .text-sm-medium-2-Xzsi {
+    font-weight: 600;
+}
+
+.tabItem-lbSC8a {
+    padding: 5px 12px;
+    border-radius: 4px;
+    margin-right: 0;
+    color: var(--header-primary);
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.tabItem-lbSC8a:hover {
+    background: var(--background-modifier-hover);
+}
+
+.tabItem-lbSC8a:active {
+    background: var(--background-modifier-active);
+}
+
+.tabItem-lbSC8a::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 50%;
+    bottom: 0;
+    transition: width 0.267s cubic-bezier(0.1, 0.25, 0.75, 0.9) 0s;
+}
+
+.tabItemSelected-Z0xl-W::after {
+    background: var(--brand-experiment);
+}
+
+.tabItemSelected-Z0xl-W:hover::after {
+    width: 90%;
+}
+
+.modalContent-2y3sGW {
+    padding: 0 24px;
+}
+
+.warning-1ALdC6 {
+    padding: 8px 24px;
+}
+
+.modalContent-2y3sGW:last-child {
+    margin-bottom: 0;
+}
+
+.qualitySettingsContainer-2LjkfM {
+    border: 1px solid var(--neutralTertiary);
+    border-radius: 4px;
+}

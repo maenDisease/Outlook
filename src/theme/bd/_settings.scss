@@ -1,0 +1,139 @@
+.contentColumn-1C7as6>.bd-settings-title:first-child {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    top: 0;
+    width: 200%;
+    padding: 20px;
+    margin-left: -21px;
+    z-index: 10;
+    transform: translateY(-20px);
+    background: var(--bg-overlay-chat, var(--gradient-kit-925a)), var(--background-primary);
+    border-bottom: 1px solid var(--background-tertiary);
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.bd-settings-group.collapsible .bd-settings-title {
+    justify-content: flex-start;
+}
+
+.bd-settings-title.bd-settings-group-title {
+    text-transform: capitalize;
+    color: var(--header-primary);
+}
+
+.bd-settings-group.collapsible .bd-settings-title::before {
+    display: none;
+}
+
+.bd-settings-group.collapsible .bd-settings-title::after {
+    order: -1;
+    margin-right: 8px;
+}
+
+.bd-setting-header {
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.bd-setting-header label {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.bd-setting-item .bd-switch {
+    order: -1;
+}
+
+#app-mount .bd-switch-body {
+    --switch-color: transparent;
+    --symbol1path: none;
+    --symbol2path: none;
+    height: 20px;
+    border: 1px solid var(--text-muted);
+    transition: all 0.1s ease 0s;
+}
+
+#app-mount .bd-switch input:checked+.bd-switch-body {
+    --switch-color: var(--brand-experiment);
+    border-color: var(--brand-experiment);
+}
+
+#app-mount :where(.bd-setting-header, .bd-addon-card):hover .bd-switch-body {
+    border-color: var(--interactive-active);
+}
+
+#app-mount :where(.bd-setting-header, .bd-addon-card):hover .bd-switch input:checked+.bd-switch-body {
+    --switch-color: var(--brand-experiment-680);
+    border-color: var(--brand-experiment-680);
+}
+
+.bd-switch-body .bd-switch-slider {
+    left: -2px;
+    width: 18px;
+    height: 12px;
+    margin: 3px;
+}
+
+.bd-switch-handle {
+    fill: var(--text-muted);
+}
+
+:where(.bd-setting-header, .bd-addon-card):hover .bd-switch-handle {
+    fill: var(--interactive-active);
+}
+
+.bd-switch input:checked+.bd-switch-body .bd-switch-handle {
+    fill: white;
+}
+
+.bd-switch input:checked+.bd-switch-body .bd-switch-slider {
+    left: 17px;
+}
+
+.bd-modal-root {
+    border-radius: 8px;
+    box-shadow: var(--elevation-modal);
+}
+
+.bd-modal-header {
+    border-radius: 8px 8px 0 0;
+    padding: 24px;
+}
+
+.bd-modal-content {
+    border-radius: 8px 8px 0 0;
+    padding-left: 24px;
+    padding-bottom: 0;
+    padding-right: 16px;
+}
+
+.bd-modal-footer {
+    border-radius: 0 0 8px 8px;
+    background: none;
+    box-shadow: none;
+    padding: 24px;
+}
+
+.bd-button-filled.bd-button-color-brand {
+    background-color: var(--brand-experiment);
+}
+
+.bd-button-medium {
+    width: unset;
+    height: 32px;
+    min-width: 80px;
+    min-height: 32px;
+}
+
+.bd-button {
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.bd-button-filled.bd-button-color-brand:hover {
+    background-color: var(--brand-experiment-680);
+}

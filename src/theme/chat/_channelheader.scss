@@ -1,0 +1,89 @@
+.container-ZMc96U.themed-Hp1KC_ {
+    border-radius: 4px;
+    margin-bottom: var(--panel-spacing);
+    border: 1px solid var(--background-tertiary);
+}
+
+.chat-2ZfjoI:not(:has(.topControls-23RE3h)) .toolbar-3_r2xA,
+.container-2cd8Mz .toolbar-3_r2xA {
+    position: fixed;
+    top: calc(var(--titlebar-height) + var(--panel-spacing));
+    background: var(--bg-overlay-chat, var(--gradient-kit-925a)), var(--background-primary);
+    height: 40px;
+    border-radius: 4px;
+    width: calc(100% - 80px - 19px - var(--theme-preview-width, 0px));
+    left: 80px;
+    box-shadow:
+        0 1.6px 3.6px hsla(0, 0%, 0%, 0.133),
+        0 0.3px 0.9px hsla(0, 0%, 0%, 0.11);
+    padding-left: 215px;
+}
+
+.container-2cd8Mz .toolbar-3_r2xA {
+    padding-left: 4px;
+}
+
+.toolbar-3_r2xA .iconWrapper-2awDjA[aria-label] {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    padding: 0 9px;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.toolbar-3_r2xA .iconWrapper-2awDjA[aria-label]:hover {
+    background: var(--background-modifier-hover);
+    border-color: var(--background-modifier-hover-border);
+}
+
+.toolbar-3_r2xA .iconWrapper-2awDjA[aria-label]:active {
+    background: var(--background-modifier-active);
+    border-color: var(--background-modifier-active-border);
+}
+
+.toolbar-3_r2xA .iconWrapper-2awDjA[aria-label].selected-29KTGM {
+    background: var(--background-modifier-selected);
+    border-color: var(--background-modifier-selected-border);
+}
+
+.toolbar-3_r2xA .iconWrapper-2awDjA[aria-label]>svg {
+    height: 20px;
+    width: 20px;
+}
+
+.toolbar-3_r2xA .iconWrapper-2awDjA[aria-label]::after {
+    content: attr(aria-label);
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+#app-mount .children-3xh0VB:after {
+    --__header-bar-background: var(--bg-overlay-chat, var(--gradient-kit-925a)), var(--background-primary);
+}
+
+.inviteToolbar-2k2nqz {
+    background: var(--brand-experiment);
+    border-radius: 4px;
+    color: white;
+    padding: 0 12px 0 9px;
+    margin-right: 2px;
+}
+
+.inviteToolbar-2k2nqz:hover {
+    background: var(--brand-experiment-680);
+}
+
+#app-mount .inviteToolbar-2k2nqz .iconWrapper-2awDjA[aria-label] {
+    background: none;
+    border: none;
+}
+
+#app-mount .inviteToolbar-2k2nqz .icon-2xnN2Y {
+    color: white;
+}
+
+.inviteToolbar-2k2nqz .divider-q3P9HC {
+    display: none;
+}

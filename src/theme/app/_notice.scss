@@ -1,0 +1,63 @@
+.notice-2HEN-u .back-ZdqB1k {
+    position: relative;
+    left: unset;
+    margin-right: 10px;
+}
+
+.notice-2HEN-u:not([style*="position: relative !important;"]) {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 36px;
+    width: fit-content;
+    border-radius: 8px;
+    padding: 4px 8px;
+    margin: 8px;
+}
+
+/* BDFDB banner */
+#app-mount .app-2CXKsg>.notice-2HEN-u~.layers-OrUESM.layers-1YQhyW .container-YkUktl,
+.app-2CXKsg>.notice-2HEN-u~.layers-OrUESM.layers-1YQhyW #bd-notices,
+.app-2CXKsg>.notice-2HEN-u~.layers-OrUESM.layers-1YQhyW .chat-2ZfjoI:not(:has(.topControls-23RE3h)) .toolbar-3_r2xA,
+.app-2CXKsg>.notice-2HEN-u~.layers-OrUESM.layers-1YQhyW .container-2cd8Mz .toolbar-3_r2xA,
+.app-2CXKsg>.notice-2HEN-u~.layers-OrUESM.layers-1YQhyW .sidebar-1tnWFu:has(.privateChannels-oVe7HL)~.chat-2ZfjoI .children-3xh0VB,
+.app-2CXKsg>.notice-2HEN-u~.layers-OrUESM.layers-1YQhyW .topControls-23RE3h,
+.app-2CXKsg>.notice-2HEN-u~.layers-OrUESM.layers-1YQhyW .header-3OsQeK,
+.app-2CXKsg>.notice-2HEN-u~.layers-OrUESM.layers-1YQhyW .search-39IXmY,
+.platform-win .typeWindows-2-g3UY:has(~div .app-2CXKsg>.notice-2HEN-u) {
+    margin-top: 36px;
+}
+
+.app-2CXKsg>.notice-2HEN-u .closeIcon-3eoP1e {
+    display: none;
+}
+
+#bd-notices {
+    position: fixed;
+    top: var(--titlebar-height);
+    right: 0;
+    z-index: 9999;
+}
+
+#bd-notices .bd-notice {
+    border-radius: 8px;
+    margin: 8px;
+    box-shadow: var(--elevation-high);
+    padding: 4px 8px;
+    height: unset;
+    align-items: center;
+    display: flex;
+}
+
+.bd-notice-close {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    background-position: 50% 55%;
+    background-size: 10px 10px;
+}
+
+.bd-notice-button {
+    border-radius: 4px;
+    top: unset;
+}

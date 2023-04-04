@@ -1,0 +1,69 @@
+#profile-customization-tab {
+    padding-top: 0;
+}
+
+#profile-customization-tab h2 {
+    margin-left: -40px;
+}
+
+.eyebrow-2wJAoF,
+.heading-deprecated-12-normal-2W7e8Q {
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: var(--header-primary);
+}
+
+.h1-3iMExa {
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.defaultMarginh1-1UYutH,
+.defaultMarginh2-12QQ2z {
+    margin-bottom: 16px;
+}
+
+#app-mount .description-foE_WP {
+    font-weight: 400;
+}
+
+/* Appearancesettings */
+.themeSelectionContainer-3nGXK9 {
+    height: 48px;
+    width: 48px;
+}
+
+.themeSelection-2u4ce0 {
+    border-radius: 4px;
+}
+
+.defaultThemeSelection-2M_3x4 {
+    box-shadow: none;
+}
+
+.checkmarkCircle-2LCcdI {
+    display: none;
+}
+
+.selectionCircle-3s5Uex {
+    border-radius: 4px;
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+    top: -4px;
+    left: -4px;
+    -webkit-box-shadow: inset 0 0 0 2px var(--brand-experiment), inset 0 0 0 4px var(--background-primary);
+    box-shadow: inset 0 0 0 2px var(--brand-experiment), inset 0 0 0 4px var(--background-primary);
+}
+
+.presets-2zm9Ir {
+    gap: 8px;
+}
+
+.themeEditor-1Ebyfp {
+    z-index: 999;
+    padding: 16px 0;
+    border-left: 1px solid var(--background-tertiary);
+    box-shadow: var(--elevation-medium);
+}

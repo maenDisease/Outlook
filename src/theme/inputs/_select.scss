@@ -1,0 +1,57 @@
+#app-mount [class*="tab"i] .item-2GWPIy {
+    display: flex;
+    border-radius: 4px;
+    overflow: visible;
+    height: 32px;
+    margin: 0;
+    padding: 2px 10px;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+#app-mount [class*="tab"i] .item-2GWPIy.selected-1sf9UK {
+    background: none;
+}
+
+#app-mount [class*="tab"i] .item-2GWPIy.selected-1sf9UK {
+    font-weight: 600;
+}
+
+[class*="tab"i] .item-2GWPIy::after {
+    position: absolute;
+    content: '';
+    background: none;
+    height: 3px;
+    width: 50%;
+    bottom: 0;
+    transition: width 0.3s ease;
+}
+
+[class*="tab"i] .item-2GWPIy.selected-1sf9UK::after {
+    background: var(--brand-experiment);
+}
+
+[class*="tab"i] .item-2GWPIy.selected-1sf9UK:hover::after {
+    width: 90%;
+}
+
+[class*="tab"i] .item-2GWPIy:not(.selected-1sf9UK, .disabled-2G98Nl):hover {
+    background: var(--background-modifier-hover);
+}
+
+[class*="tab"i] .item-2GWPIy:not(.selected-1sf9UK, .disabled-2G98Nl):active {
+    background: var(--background-modifier-active);
+}
+
+.input-3O04eu:not(textarea) {
+    border-radius: 4px;
+    background: var(--background-secondary);
+    border: 1px solid var(--neutralTertiary);
+}
+
+#app-mount .bioTextArea-dDGOeC {
+    background: var(--background-secondary);
+    border: 1px solid var(--neutralTertiary);
+}

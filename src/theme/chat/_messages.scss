@@ -1,0 +1,102 @@
+.jumpToPresentBar-1cEnH0 {
+    bottom: 8px;
+    border-radius: 8px;
+    background-color: var(--brand-experiment);
+    padding: 8px;
+    left: unset;
+    box-shadow: var(--elevation-medium);
+}
+
+.jumpToPresentBar-1cEnH0:hover {
+    background-color: var(--brand-experiment-680);
+}
+
+.scrollerSpacer-3AqkT9 {
+    height: 20px;
+}
+
+.reaction-3vwAF2,
+.reaction-102jx9,
+.addReactButton-214Pdk {
+    border-radius: 4px;
+    background: none;
+}
+
+.buttonContainer-1502pf .wrapper-2vIMkT {
+    border-radius: 4px;
+}
+
+.embed-hKpSrO.markup-eYLPri {
+    box-shadow: var(--elevation-medium);
+}
+
+.embedFull-1HGV2S {
+    overflow: hidden;
+    background: var(--background-primary);
+    border-left: none;
+    border-top: 4px solid var(--background-tertiary);
+    z-index: 0;
+}
+
+.embedSuppressButton-1rZHq6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+    border-radius: 4px;
+    height: 20px;
+    width: 20px;
+    right: 0;
+}
+
+.embedSuppressButton-1rZHq6:hover {
+    background: var(--button-danger-background);
+    color: var(--white-500);
+}
+
+.embedFull-1HGV2S::before {
+    display: block;
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 0;
+    border-right: 100vw solid transparent;
+    border-color: inherit;
+    opacity: 0.125;
+    z-index: -1;
+}
+
+.embedFull-1HGV2S[style="border-color: hsla(0, calc(var(--saturation-factor, 1) * 0%), 100%, 1);"] {
+    background: var(--background-secondary);
+    border: 1px solid var(--neutralTertiary) !important;
+}
+
+#app-mount .embedHorizontal-2GF6zV,
+#app-mount .embedVertical-2vpt72 {
+    background: var(--background-secondary);
+
+}
+
+#app-mount .tile-2mmK5T {
+    border-radius: 4px;
+    border: 1px solid var(--neutralTertiary);
+}
+
+#app-mount .wrapper-1HIH0j {
+    --background-secondary-alt: var(--background-secondary);
+    border: 1px solid var(--neutralTertiary);
+    border-radius: 4px;
+}
+
+.wrapper-1HIH0j:focus,
+.wrapper-1HIH0j:hover {
+    background: var(--background-secondary);
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    box-shadow: var(--elevation-card);
+    -webkit-box-shadow: var(--elevation-card);
+}
+
+.wrapper-1HIH0j .inviteSplash-2nkLRX {
+    border-radius: 4px 4px 0 0;
+}
