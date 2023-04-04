@@ -1069,6 +1069,19 @@
   display: none;
 }
 
+.jumpToPresentBar-1cEnH0 {
+  bottom: 8px;
+  border-radius: 8px;
+  background-color: var(--brand-experiment);
+  padding: 8px;
+  left: unset;
+  box-shadow: var(--elevation-medium);
+}
+
+.jumpToPresentBar-1cEnH0:hover {
+  background-color: var(--brand-experiment-680);
+}
+
 .scrollerSpacer-3AqkT9 {
   height: 20px;
 }
