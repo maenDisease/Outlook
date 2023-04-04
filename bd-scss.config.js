@@ -9,8 +9,5 @@ export default {
 		website: "https://maendisease.github.io/",
 		invite: "BShu37e4jg"
 	},
-	base: {
-		output: 'dist/dist'
-	},
 	baseImport: 'https://maendisease.github.io/Outlook/dist/Outlook.css'
 }
