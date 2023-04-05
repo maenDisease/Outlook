@@ -1,0 +1,10 @@
+#app-mount #channelTabs-container {
+    order: 1;
+    background: var(--bg-overlay-app-frame, var(--gradient-kit-50a)), var(--background-tertiary);
+    border-top: 1px solid var(--neutralTertiary);
+}
+
+#app-mount .channelTabs-tab.channelTabs-selected {
+    background: var(--bg-overlay-selected, var(--gradient-kit-60a)), var(--background-primary);
+    box-shadow: var(--elevation-medium);
+}
