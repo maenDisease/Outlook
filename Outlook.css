@@ -1193,6 +1193,10 @@
   border-radius: 4px 4px 0 0;
 }
 
+.content-3spvdd {
+  background: var(--bg-overlay-chat, var(--gradient-kit-925a)), var(--background-primary);
+}
+
 .channelTextArea-1VQBuV {
   border-radius: 4px;
   background: none;
@@ -2166,7 +2170,7 @@ form .pill-3pRQlO.clickable-3YTfAq:not(.disabled-3Rezaw):hover {
     width: calc(100% - 350px - 32px);
   }
 }
-.profilePanel-2PWEok {
+.profilePanel-2VBkh8 {
   overflow: hidden;
   border-radius: 4px;
   border: 1px solid var(--background-tertiary);
