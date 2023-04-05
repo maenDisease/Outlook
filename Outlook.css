@@ -454,6 +454,19 @@
   background: var(--status-grey) !important;
 }
 
+.notice-2HEN-u {
+  display: flex;
+}
+
+.notice-2HEN-u .closeButton-30b1gR {
+  position: relative;
+  display: flex;
+}
+
+.notice-2HEN-u .closeIcon-3eoP1e {
+  display: none;
+}
+
 .notice-2HEN-u .back-ZdqB1k {
   position: relative;
   left: unset;
@@ -483,10 +496,6 @@
 .app-2CXKsg > .notice-2HEN-u ~ .layers-OrUESM.layers-1YQhyW .search-39IXmY,
 .platform-win .typeWindows-2-g3UY:has(~ div .app-2CXKsg > .notice-2HEN-u) {
   margin-top: 36px;
-}
-
-.app-2CXKsg > .notice-2HEN-u .closeIcon-3eoP1e {
-  display: none;
 }
 
 #bd-notices {
@@ -1824,6 +1833,70 @@ form .pill-3pRQlO.clickable-3YTfAq:not(.disabled-3Rezaw):hover {
 
 .replies-15QcwL:active {
   background: var(--background-modifier-active);
+}
+
+#app-mount .container-2IKOsH {
+  background: var(--bg-overlay-chat, var(--gradient-kit-925a)), var(--background-primary);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-top: 1px solid var(--neutralTertiary);
+  border-left: 1px solid var(--neutralTertiary);
+  border-right: 1px solid var(--neutralTertiary);
+}
+
+#app-mount .container-1um7CU {
+  background: none;
+}
+
+#app-mount .innerHeader-1cC3Fp:after {
+  background: linear-gradient(90deg, rgba(54, 57, 63, 0) 0, var(--__header-bar-background));
+}
+
+.pageBody-23bo4p {
+  padding: 24px 0 0 24px;
+}
+
+.header-2e2w0L {
+  margin: 0 24px 0 0;
+}
+
+.scrollerInner-1kQEqs {
+  padding: 0 8px 0 0;
+}
+
+#app-mount .channelRow-4X_3fi {
+  justify-content: start;
+  border-radius: 4px;
+}
+
+.channelRow-4X_3fi:hover:not(.disabled-3cfocy) {
+  background-color: var(--background-modifier-hover);
+}
+
+.firstChannel-3vAGDY,
+.lastChannel-21yyBC {
+  border-radius: 0;
+}
+
+.categoryRow-2VIZ6m .categoryText-35ACGA {
+  text-transform: capitalize;
+  font-family: var(--font-display);
+}
+
+.channelSubtitle-2k6z5J,
+.topic-3svq3- {
+  color: var(--text-muted);
+}
+
+.channelActions-2FvDct {
+  order: -1;
+  flex-direction: row-reverse;
+  min-width: 123px;
+}
+
+.viewChannelButton-59XD70 {
+  margin-left: 16px;
+  display: none;
 }
 
 .container-2cd8Mz {
@@ -3868,6 +3941,10 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
   line-height: 52px;
   color: var(--text-normal);
   background: var(--background-secondary);
+}
+
+.search-kg4MrS {
+  border-radius: 4px;
 }
 
 .bd-sidebar-header .bd-sidebar-header-label {
