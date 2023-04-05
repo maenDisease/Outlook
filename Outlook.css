@@ -990,6 +990,15 @@
   background: none;
 }
 
+.emptyChannelIcon-1YdEz2 {
+  background-color: transparent;
+  filter: none;
+}
+
+.theme-dark .emptyChannelIcon-1YdEz2 {
+  filter: invert(1);
+}
+
 .container-ZMc96U.themed-Hp1KC_ {
   border-radius: 4px;
   margin-bottom: var(--panel-spacing);
@@ -1534,6 +1543,12 @@
   margin-left: auto;
   margin-right: 0;
   border: 1px solid var(--neutralTertiary);
+}
+
+.chatHeaderBar-2fUORh {
+  background: var(--background-secondary);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
 
 .reactButtons-FRvFhI {
@@ -2565,7 +2580,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
   box-shadow: none;
 }
 
-.tabBar-2StdUa {
+.tabBar-2hXqzU {
   gap: 0;
 }
 
@@ -4104,4 +4119,15 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
 .bd-addon-list .bd-addon-card:not(.bd-addon-card-disabled) .bd-switch:not(.bd-switch-checked)::after,
 .bd-addon-list .bd-addon-card:not(.bd-addon-card-disabled) .bd-switch:not(.bd-switch-checked)::before {
   border: 1px solid var(--background-modifier-hover-border);
+}
+
+#app-mount #channelTabs-container {
+  order: 1;
+  background: var(--bg-overlay-app-frame, var(--gradient-kit-50a)), var(--background-tertiary);
+  border-top: 1px solid var(--neutralTertiary);
+}
+
+#app-mount .channelTabs-tab.channelTabs-selected {
+  background: var(--bg-overlay-selected, var(--gradient-kit-60a)), var(--background-primary);
+  box-shadow: var(--elevation-medium);
 }
