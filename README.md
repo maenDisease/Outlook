@@ -1,4 +1,4 @@
-<h1 align="center">Solana</h1>
+<h1 align="center">Outlook</h1>
 <p align="center">Based on Outlook Web. Customize with https://bdeditor.dev/theme/Outlook</p>
 
 | Light mode | Dark mode |
