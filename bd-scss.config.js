@@ -8,6 +8,5 @@ export default {
 		source: "https://github.com/maenDisease/Outlook",
 		website: "https://maendisease.github.io/",
 		invite: "BShu37e4jg"
-	},
-	baseImport: 'https://maendisease.github.io/Outlook/dist/Outlook.css'
+	}
 }
