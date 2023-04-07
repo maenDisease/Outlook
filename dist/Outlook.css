@@ -529,7 +529,11 @@
 }
 
 .wrapper-1_HaEi {
-  background: var(--gradient-kit-50a), var(--background-tertiary);
+  background: var(--bg-overlay-4, var(--gradient-kit-50a)), var(--background-tertiary);
+}
+
+#app-mount .scroller-3X7KbA {
+  background: none;
 }
 
 #app-mount .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
