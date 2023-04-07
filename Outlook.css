@@ -2931,8 +2931,8 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
 }
 
 .replyBar-1oi75v:has([aria-checked=true]) {
-  background: linear-gradient(var(--n-blue-canvas) 0 0), linear-gradient(var(--background-floating) 0 0);
-  border-color: var(--n-blue-stroke);
+  background: linear-gradient(var(--brand-experiment-10a) 0 0), linear-gradient(var(--background-floating) 0 0);
+  border-color: var(--brand-experiment-200);
 }
 
 .threadSuggestionBar-3ExSyc {
