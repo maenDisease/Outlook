@@ -36,9 +36,9 @@
     position: fixed;
     top: 0;
     bottom: 0;
-    z-index: 99;
+    z-index: 1001;
     overflow-y: auto;
-    max-height: calc(100vh - 72px);
+    max-height: 78vh;
     margin: auto auto auto calc(72px - 7px);
     padding-top: 8px;
     border-radius: 4px;
