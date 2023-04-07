@@ -1,41 +1,16 @@
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/ProfileBannerSkins.css);
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css);
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
+:root {
+    --home-image: url(https://maendisease.github.io/Outlook/illustrations/homeimage-default.avif);
 
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
-@import url(https://stickfab.github.io/pc-fluenticons/src/fluenticons-base.css);
-@import url(https://stickfab.github.io/pc-fluenticons/src/fluenticons-context.css);
-@import url(https://nyri4.github.io/Discolored/main.css);
+    --accent-hue: 208;
+    --accent-saturation: 85%;
+    --accent-brightness: 40%;
 
-@font-face {
-    font-family: "Segoe UI";
-    src: local("Segoe UI Light"), url("https://discordstyles.github.io/Fluent/fonts/light.woff2") format("woff2");
-    font-weight: 100;
-}
+    --gradient-toggle: 1;
+    --gradient-hue-shift: 0.2;
+    --gradient-saturation: 50%;
+    --gradient-deg: 179.52deg;
 
-@font-face {
-    font-family: "Segoe UI";
-    src: local("Segoe UI Semilight"), url("https://discordstyles.github.io/Fluent/fonts/semilight.woff2") format("woff2");
-    font-weight: 200;
-}
-
-@font-face {
-    font-family: "Segoe UI";
-    src: local("Segoe UI"), url("https://discordstyles.github.io/Fluent/fonts/normal.woff2") format("woff2");
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: "Segoe UI";
-    src: local("Segoe UI Semibold"), url("https://discordstyles.github.io/Fluent/fonts/semibold.woff2") format("woff2");
-    font-weight: 600;
-}
-
-@font-face {
-    font-family: "Segoe UI";
-    src: local("Segoe UI Bold"), url("https://discordstyles.github.io/Fluent/fonts/bold.woff2") format("woff2");
-    font-weight: 700;
+    --customFont: "Segoe UI";
 }
 
 :root {
