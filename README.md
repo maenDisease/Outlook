@@ -1,6 +1,11 @@
 <h1 align="center">Outlook</h1>
 <p align="center">Based on Outlook Web. Customize with https://bdeditor.dev/theme/Outlook</p>
 
+## Simple Customization
+* Set a custom image for the Discord homepage
+* Custom accent color
+* Toggle the gradient background
+
 | Light mode | Dark mode |
 | ---------- | --------- |
 | ![Screenshot of theme with light mode](https://user-images.githubusercontent.com/90428263/230512472-9a3102f6-b74f-43fd-816f-c14a201d2ff8.png) | ![Screenshot of theme with dark mode](https://user-images.githubusercontent.com/90428263/230512473-e7505d36-41ea-4d00-b2cc-f00b2a4e9df3.png) |
