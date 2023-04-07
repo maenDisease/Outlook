@@ -32,6 +32,18 @@
   font-weight: 700;
 }
 :root {
+  --home-image: url(https://maendisease.github.io/Outlook/illustrations/homeimage-default.avif);
+  --accent-hue: 208;
+  --accent-saturation: 85%;
+  --accent-brightness: 40%;
+  --gradient-toggle: 1;
+  --gradient-hue-shift: 0.2;
+  --gradient-saturation: 50%;
+  --gradient-deg: 179.52deg;
+  --customFont: "Segoe UI";
+}
+
+:root {
   --titlebar-height: 48px;
   --panel-spacing: 8px;
   --notices-height: 36px;
