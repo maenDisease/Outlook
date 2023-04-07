@@ -544,6 +544,10 @@
   background: var(--bg-overlay-4, var(--gradient-kit-50a)), var(--background-tertiary);
 }
 
+.platform-osx .wrapper-1_HaEi {
+  margin-top: 0;
+}
+
 #app-mount .scroller-3X7KbA {
   background: none;
 }
