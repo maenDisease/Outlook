@@ -4300,7 +4300,8 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
   line-height: 16px;
 }
 
-.styledGuildsAsChannels-DNHtg_ .chat-2ZfjoI:not(:has(.topControls-23RE3h)) .toolbar-3_r2xA, .container-2cd8Mz .toolbar-3_r2xA,
+.styledGuildsAsChannels-DNHtg_ .chat-2ZfjoI:not(:has(.topControls-23RE3h)) .toolbar-3_r2xA,
+.styledGuildsAsChannels-DNHtg_ .container-2cd8Mz .toolbar-3_r2xA,
 .styledGuildsAsChannels-DNHtg_ .sidebar-1tnWFu:has(.privateChannels-oVe7HL) ~ .chat-2ZfjoI .children-3xh0VB,
 .styledGuildsAsChannels-DNHtg_ .topControls-23RE3h {
   left: 248px;
