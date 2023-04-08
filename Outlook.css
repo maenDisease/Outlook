@@ -2218,6 +2218,7 @@ form .pill-3pRQlO.clickable-3YTfAq:not(.disabled-3Rezaw):hover {
   border-top: 1px solid var(--neutralTertiary);
   border-left: 1px solid var(--neutralTertiary);
   border-right: 1px solid var(--neutralTertiary);
+  background: var(--bg-overlay-chat, var(--gradient-kit-925a)), var(--background-primary);
 }
 
 #app-mount .content-1SgpWY:has(.pageWrapper-2PwDoS) {
