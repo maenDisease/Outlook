@@ -2988,6 +2988,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
   border: none;
   border-radius: 8px;
   box-shadow: var(--elevation-high);
+  background: var(--background-primary);
 }
 
 .flexible-3B4jwn {
