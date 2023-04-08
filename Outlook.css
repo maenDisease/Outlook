@@ -2574,6 +2574,14 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
   box-shadow: var(--elevation-medium);
 }
 
+#app-mount .uploadModal-2ie9O_ {
+  background: var(--modal-background);
+}
+
+#app-mount .footer-VCsJQY {
+  background: none;
+}
+
 .keyboardShortcutList-3VFAYS .keybindGroup-39HP2U .keybindDescription-oXh6w_ {
   text-transform: capitalize;
 }
