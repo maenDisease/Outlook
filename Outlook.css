@@ -685,6 +685,10 @@
   --background-modifier-active: hsla(0, 0%, 50%, 10%);
 }
 
+.bar-wDIGjg {
+  border-radius: 4px;
+}
+
 #app-mount .header-3OsQeK {
   position: fixed;
   z-index: 999;
