@@ -689,6 +689,10 @@
   border-radius: 4px;
 }
 
+.barText-1eIsLx {
+  text-transform: capitalize;
+}
+
 #app-mount .header-3OsQeK {
   position: fixed;
   z-index: 999;
@@ -1164,6 +1168,7 @@
   height: 20px;
   width: 20px;
   right: 0;
+  z-index: 2;
 }
 
 .embedSuppressButton-1rZHq6:hover {
@@ -1544,6 +1549,10 @@
 
 .callContainer-BGIngG .topControls-23RE3h {
   padding-left: 221px;
+}
+
+.chat-2ZfjoI.threadSidebarOpen-1LSXvU {
+  border-radius: 4px 4px 0 0;
 }
 
 .resizeHandle-PBRzPC {
@@ -2225,6 +2234,24 @@ form .pill-3pRQlO.clickable-3YTfAq:not(.disabled-3Rezaw):hover {
   background: var(--bg-overlay-chat, var(--gradient-kit-925a)), var(--background-primary);
 }
 
+.container-3D-8Ly {
+  border-radius: 4px;
+}
+
+.card-3ie2dy {
+  border-radius: 4px;
+  box-shadow: var(--elevation-medium);
+  padding: 16px;
+}
+
+.bigPerkCard-1uwmWV,
+.smallPerkCard-2sX_-- {
+  border-radius: 4px;
+  box-shadow: var(--elevation-medium);
+  padding: 16px;
+  background: var(--background-secondary);
+}
+
 #app-mount .content-1SgpWY:has(.pageWrapper-2PwDoS) {
   margin-top: var(--panel-spacing);
 }
@@ -2505,12 +2532,13 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
 }
 
 .selectionCircle-3s5Uex {
-  border-radius: 4px;
+  border-radius: 6px;
   width: calc(100% + 8px);
   height: calc(100% + 8px);
   top: -4px;
   left: -4px;
-  box-shadow: inset 0 0 0 2px var(--brand-experiment), inset 0 0 0 4px var(--background-primary);
+  border: 2px solid var(--brand-experiment);
+  box-shadow: none;
 }
 
 .presets-2zm9Ir {
@@ -2522,6 +2550,48 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
   padding: 16px 0;
   border-left: 1px solid var(--background-tertiary);
   box-shadow: var(--elevation-medium);
+}
+
+.connectContainer-1hylYM {
+  background: var(--background-primary);
+  border-radius: 4px;
+  border: 1px solid var(--background-tertiary);
+}
+
+.accountButtonInner-33vCDY {
+  background-color: transparent;
+  border: 1px solid var(--background-tertiary);
+}
+
+.connection-YOVI9j {
+  background: var(--background-primary);
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid var(--background-tertiary);
+}
+
+.connectionHeader-Ixbb1s {
+  border-radius: 4px 4px 0 0;
+  background: none;
+}
+
+.cardPrimary-pAe8Ed {
+  background: var(--background-primary);
+  border: 1px solid var(--background-tertiary);
+}
+
+#app-mount .paymentPane-ut5qKZ {
+  background: var(--background-primary);
+  border-radius: 4px;
+}
+
+#app-mount .paginator-1eqD2g,
+#app-mount .payment-2bOh4k {
+  background: var(--background-primary);
+}
+
+#app-mount .bottomDivider-ZmTm-j {
+  border-bottom-color: var(--background-tertiary);
 }
 
 .backdrop-2ByYRN.withLayer-2VVmpp {
@@ -2584,6 +2654,11 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
 
 #app-mount .footer-VCsJQY {
   background: none;
+  box-shadow: none;
+}
+
+.footerRightAlign-3Xr2jN {
+  gap: 8px;
 }
 
 .keyboardShortcutList-3VFAYS .keybindGroup-39HP2U .keybindDescription-oXh6w_ {
@@ -2619,6 +2694,20 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
   --input-background: var(--background-secondary);
   --deprecated-text-input-border: var(--neutralTertiary);
   box-shadow: none;
+}
+
+.phoneField-3NAPDv .plusSign-1BkjXr,
+.phoneField-3NAPDv .countryCode-2RFA3i {
+  color: var(--neutralDark);
+}
+
+.theme-light .editIcon-e7sZ3b {
+  filter: invert(1);
+  filter: brightness(0.26);
+}
+
+.phoneField-3NAPDv .phoneFieldExpand-1CqrEb {
+  stroke: var(--neutralDark);
 }
 
 .tabBar-2hXqzU {
@@ -3570,6 +3659,19 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
   margin-bottom: 16px;
 }
 
+.horizontal-112GEH > .flex-2S1XBF, .horizontal-112GEH > .flexChild-3PzYmX {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.horizontal-112GEH {
+  gap: 8px;
+}
+
+.disableButton-3BR0Vj {
+  margin-right: 8px;
+}
+
 .button-1EGGcP.buttonColor-3bP3fX,
 .button-1EGGcP .buttonColor-3bP3fX {
   background: none;
@@ -3633,20 +3735,6 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
 
 .removeButton-1xB_Ez {
   margin-left: 16px;
-}
-
-.phoneField-3NAPDv .plusSign-1BkjXr,
-.phoneField-3NAPDv .countryCode-2RFA3i {
-  color: var(--neutralDark);
-}
-
-.theme-light .editIcon-e7sZ3b {
-  filter: invert(1);
-  filter: brightness(0.26);
-}
-
-.phoneField-3NAPDv .phoneFieldExpand-1CqrEb {
-  stroke: var(--neutralDark);
 }
 
 #app-mount .container-1QtPKm {
