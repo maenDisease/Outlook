@@ -130,20 +130,20 @@
 }
 
 :root {
-  --brand-experiment: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%);
-  --brand-experiment-100: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 98%);
-  --brand-experiment-130: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 93.2%);
-  --brand-experiment-160: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 88.3%);
-  --brand-experiment-200: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 83.5%);
-  --brand-experiment-230: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 78.7%);
-  --brand-experiment-260: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 73.8%);
-  --brand-experiment-300: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 69%);
-  --brand-experiment-330: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 64.2%);
-  --brand-experiment-360: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 59.3%);
-  --brand-experiment-400: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 54.5%);
-  --brand-experiment-430: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 49.7%);
-  --brand-experiment-460: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 44.8%);
-  --brand-experiment-500: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%);
+  --brand-experiment: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness));
+  --brand-experiment-100: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), 98%);
+  --brand-experiment-130: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), 93.2%);
+  --brand-experiment-160: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), 88.3%);
+  --brand-experiment-200: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), 83.5%);
+  --brand-experiment-230: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), 78.7%);
+  --brand-experiment-260: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), 73.8%);
+  --brand-experiment-300: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), 69%);
+  --brand-experiment-330: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), 64.2%);
+  --brand-experiment-360: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), 59.3%);
+  --brand-experiment-400: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), 54.5%);
+  --brand-experiment-430: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), 49.7%);
+  --brand-experiment-460: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), 44.8%);
+  --brand-experiment-500: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness));
   --brand-experiment-530: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*63.8%), 36.9%);
   --brand-experiment-560: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*51%), 33.8%);
   --brand-experiment-600: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*46.6%), 30.8%);
@@ -157,25 +157,25 @@
   --brand-experiment-830: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*46.6%), 9.2%);
   --brand-experiment-860: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*46.6%), 6.1%);
   --brand-experiment-900: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*46.6%), 3%);
-  --brand-experiment-05a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.05);
-  --brand-experiment-10a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.1);
-  --brand-experiment-15a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.15);
-  --brand-experiment-20a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.2);
-  --brand-experiment-25a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.25);
-  --brand-experiment-30a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.3);
-  --brand-experiment-35a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.35);
-  --brand-experiment-40a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.4);
-  --brand-experiment-45a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.45);
-  --brand-experiment-50a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.5);
-  --brand-experiment-55a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.55);
-  --brand-experiment-60a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.6);
-  --brand-experiment-65a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.65);
-  --brand-experiment-70a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.7);
-  --brand-experiment-75a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.75);
-  --brand-experiment-80a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.8);
-  --brand-experiment-85a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.85);
-  --brand-experiment-90a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.9);
-  --brand-experiment-95a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*85%), 40%, 0.95);
+  --brand-experiment-05a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.05);
+  --brand-experiment-10a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.1);
+  --brand-experiment-15a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.15);
+  --brand-experiment-20a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.2);
+  --brand-experiment-25a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.25);
+  --brand-experiment-30a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.3);
+  --brand-experiment-35a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.35);
+  --brand-experiment-40a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.4);
+  --brand-experiment-45a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.45);
+  --brand-experiment-50a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.5);
+  --brand-experiment-55a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.55);
+  --brand-experiment-60a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.6);
+  --brand-experiment-65a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.65);
+  --brand-experiment-70a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.7);
+  --brand-experiment-75a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.75);
+  --brand-experiment-80a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.8);
+  --brand-experiment-85a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.85);
+  --brand-experiment-90a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.9);
+  --brand-experiment-95a: hsla(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness), 0.95);
   --brand-100: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 77.8%), 98.2%);
   --brand-130: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 87.5%), 96.9%);
   --brand-160: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 84.6%), 94.9%);
@@ -4272,6 +4272,10 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
 .bd-addon-list {
   --bdAddonMini-bg-checked: var(--background-primary);
   --bdAddonMini-bg-unchecked-hover: var(--background-modifier-hover);
+}
+
+.bd-addon-card {
+  border: 1px solid transparent;
 }
 
 .bd-addon-card:not(:has(.bd-switch-checked), .bd-addon-card-disabled) {
