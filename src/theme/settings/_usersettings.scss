@@ -48,13 +48,13 @@
 }
 
 .selectionCircle-3s5Uex {
-    border-radius: 4px;
+    border-radius: 6px;
     width: calc(100% + 8px);
     height: calc(100% + 8px);
     top: -4px;
     left: -4px;
-    -webkit-box-shadow: inset 0 0 0 2px var(--brand-experiment), inset 0 0 0 4px var(--background-primary);
-    box-shadow: inset 0 0 0 2px var(--brand-experiment), inset 0 0 0 4px var(--background-primary);
+    border: 2px solid var(--brand-experiment);
+    box-shadow: none;
 }
 
 .presets-2zm9Ir {
@@ -66,4 +66,47 @@
     padding: 16px 0;
     border-left: 1px solid var(--background-tertiary);
     box-shadow: var(--elevation-medium);
+}
+
+.connectContainer-1hylYM {
+    background: var(--background-primary);
+    border-radius: 4px;
+    border: 1px solid var(--background-tertiary);
+}
+
+.accountButtonInner-33vCDY {
+    background-color: transparent;
+    border: 1px solid var(--background-tertiary);
+}
+
+
+.connection-YOVI9j {
+    background: var(--background-primary);
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid var(--background-tertiary);
+}
+
+.connectionHeader-Ixbb1s {
+    border-radius: 4px 4px 0 0;
+    background: none;
+}
+
+.cardPrimary-pAe8Ed {
+    background: var(--background-primary);
+    border: 1px solid var(--background-tertiary);
+}
+
+#app-mount .paymentPane-ut5qKZ {
+    background: var(--background-primary);
+    border-radius: 4px;
+}
+
+#app-mount .paginator-1eqD2g,
+#app-mount .payment-2bOh4k {
+    background: var(--background-primary);
+}
+
+#app-mount .bottomDivider-ZmTm-j {
+    border-bottom-color: var(--background-tertiary);
 }

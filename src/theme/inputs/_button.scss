@@ -14,6 +14,19 @@
     margin-bottom: 16px;
 }
 
+.horizontal-112GEH>.flex-2S1XBF, .horizontal-112GEH>.flexChild-3PzYmX {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.horizontal-112GEH {
+    gap: 8px;
+}
+
+.disableButton-3BR0Vj {
+    margin-right: 8px;
+}
+
 .button-1EGGcP.buttonColor-3bP3fX,
 .button-1EGGcP .buttonColor-3bP3fX {
     background: none;
@@ -77,18 +90,4 @@
 
 .removeButton-1xB_Ez {
     margin-left: 16px;
-}
-
-.phoneField-3NAPDv .plusSign-1BkjXr,
-.phoneField-3NAPDv .countryCode-2RFA3i {
-    color: var(--neutralDark);
-}
-
-.theme-light .editIcon-e7sZ3b {
-    filter: invert(1);
-    filter: brightness(0.26);
-}
-
-.phoneField-3NAPDv .phoneFieldExpand-1CqrEb {
-    stroke: var(--neutralDark);
 }

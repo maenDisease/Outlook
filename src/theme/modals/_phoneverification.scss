@@ -9,3 +9,17 @@
     --deprecated-text-input-border: var(--neutralTertiary);
     box-shadow: none;
 }
+
+.phoneField-3NAPDv .plusSign-1BkjXr,
+.phoneField-3NAPDv .countryCode-2RFA3i {
+    color: var(--neutralDark);
+}
+
+.theme-light .editIcon-e7sZ3b {
+    filter: invert(1);
+    filter: brightness(0.26);
+}
+
+.phoneField-3NAPDv .phoneFieldExpand-1CqrEb {
+    stroke: var(--neutralDark);
+}
