@@ -1,10 +1,9 @@
 .bd-addon-list {
-    --bdAddonMini-bg-checked: var(--background-modifier-selected);
-    --bdAddonMini-bg-unchecked: var(--bg-overlay-chat, var(--gradient-kit-925a)), var(--background-primary);
+    --bdAddonMini-bg-checked: var(--background-primary);
     --bdAddonMini-bg-unchecked-hover: var(--background-modifier-hover);
 }
 
-.bd-addon-list .bd-addon-card:not(.bd-addon-card-disabled) .bd-switch:not(.bd-switch-checked)::after,
-.bd-addon-list .bd-addon-card:not(.bd-addon-card-disabled) .bd-switch:not(.bd-switch-checked)::before {
-    border: 1px solid var(--background-modifier-hover-border);
+.bd-addon-card:not(:has(.bd-switch-checked), .bd-addon-card-disabled) {
+    background: none;
+    border: 1px solid var(--background-tertiary);
 }
