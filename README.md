@@ -1,5 +1,5 @@
 <h1 align="center">Outlook</h1>
-<p align="center">Based on Outlook Web. Customize with https://bdeditor.dev/theme/Outlook</p>
+<p align="center">Based on Outlook Web. Customize with https://bdeditor.dev/theme/outlook</p>
 
 ## Simple Customization
 * Set a custom image for the Discord homepage
@@ -15,5 +15,5 @@
 ![Screenshot of theme with light mode](https://user-images.githubusercontent.com/90428263/230512479-561cfa06-2667-4e1d-9f71-cec2c370a7f7.png)
 ![Screenshot of theme with light mode](https://user-images.githubusercontent.com/90428263/230512481-d237fd33-b7c1-4e45-b533-ded5e6bbdff6.png)
 ![Screenshot of theme with light mode](https://user-images.githubusercontent.com/90428263/230512483-ef6afdd7-1700-4ded-81b9-bff078553835.png)
-![Screenshot of theme with light mode](https://user-images.githubusercontent.com/90428263/230512484-a4e74b74-0968-4960-9c12-1f34e940f6c0.png)
 ![Screenshot of theme with light mode](https://user-images.githubusercontent.com/90428263/230512485-d022468a-d787-4ef3-aa81-e006440a6866.png)
+![Screenshot of theme with light mode](https://user-images.githubusercontent.com/90428263/230512484-a4e74b74-0968-4960-9c12-1f34e940f6c0.png)
