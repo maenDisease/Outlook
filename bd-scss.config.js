@@ -10,6 +10,6 @@ export default {
 		invite: "BShu37e4jg"
 	},
 	addons: [
-		['./src/addons/_settingssidebar.scss', 'dist/settingssidebar.css'],
+		['./src/addons/_settingssidebar.scss', 'dist/addons/settingssidebar.css'],
 	]
 }
