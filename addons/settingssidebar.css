@@ -1,20 +1,16 @@
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/SettingsSidebar.css);
+/* Layout */
 :root {
+  --settingsidebar-border-radius: 0;
+}
+
+.layer-86YKbF ~ .layer-86YKbF,
+.layer-86YKbF:has(~ .layer-86YKbF) {
   --settingsidebar-width: 320px;
-  --settingsidebar-border-top-right-radius: 0;
 }
 
 #app-mount .layer-86YKbF ~ .layer-86YKbF {
   box-shadow: var(--elevation-medium) !important;
-}
-
-.layer-86YKbF.baseLayer-W6S8cY:has(~ .layer-86YKbF) {
-  --settingsidebar-width-open: 320px;
-}
-
-.chat-2ZfjoI:not(:has(.topControls-23RE3h)) .toolbar-3_r2xA, .container-2cd8Mz .toolbar-3_r2xA {
-  width: calc(100% - 80px - 19px - var(--theme-preview-width, 0px) - var(--settingsidebar-width-open, 0px));
-  transition: width 0.1s ease;
 }
 
 #app-mount .layer-86YKbF ~ .layer-86YKbF {
