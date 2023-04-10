@@ -11,7 +11,7 @@
     background: var(--bg-overlay-chat, var(--gradient-kit-925a)), var(--background-primary);
     height: 40px;
     border-radius: 4px;
-    width: calc(100% - 80px - 19px - var(--theme-preview-width, 0px));
+    width: calc(100% - 80px - 19px - var(--theme-preview-width, 0px) - var(--settingsidebar-width, 0px));
     left: 80px;
     box-shadow:
         0 1.6px 3.6px hsla(0, 0%, 0%, 0.133),
