@@ -1,0 +1,87 @@
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/SettingsSidebar.css);
+
+:root {
+    --settingsidebar-width: 320px;
+    --settingsidebar-border-top-right-radius: 0;
+}
+
+#app-mount .layer-86YKbF ~ .layer-86YKbF {
+    box-shadow: var(--elevation-medium) !important;
+}
+
+.layer-86YKbF.baseLayer-W6S8cY:has(~.layer-86YKbF) {
+    --settingsidebar-width-open: 320px;
+}
+
+.chat-2ZfjoI:not(:has(.topControls-23RE3h)) .toolbar-3_r2xA, .container-2cd8Mz .toolbar-3_r2xA {
+    width: calc(100% - 80px - 19px - var(--theme-preview-width, 0px) - var(--settingsidebar-width-open, 0px));
+    transition: width 0.1s ease;
+}
+
+#app-mount .layer-86YKbF ~ .layer-86YKbF {
+    border-radius: 0 !important;
+}
+
+#app-mount .layer-86YKbF.baseLayer-W6S8cY~.layer-86YKbF {
+    width: var(--settingsidebar-width) !important;
+    left: unset !important;
+    height: 100% !important;
+    margin: 0 !important;
+    top: var(--titlebar-height) !important;
+}
+
+.sidebarRegionScroller-FXiQOh:not(:hover) .item-2GWPIy.selected-1sf9UK {
+    margin-top: 6px;
+}
+
+.layer-86YKbF.baseLayer-W6S8cY.stop-animations {
+    margin-left: 0;
+    margin-right: var(--settingsidebar-width);
+}
+
+.sidebarRegion-1VBisG:hover ~ .contentRegion-3HkfJJ {
+    display: flex;
+}
+
+.sidebarRegion-1VBisG {
+    z-index: 11;
+}
+body #app-mount .sidebarRegion-1VBisG:not(:hover) .sidebar-nqHbhN, 
+body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebarRegion-1VBisG:not(:hover) .sidebar-nqHbhN {
+    padding: 0 0 0 8px !important;
+}
+
+#app-mount .layer-86YKbF ~ .layer-86YKbF .sidebarRegion-1VBisG, #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebarRegionScroller-FXiQOh {
+    flex-grow: 1 !important;
+}
+
+body #app-mount .sidebar-nqHbhN, body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
+    width: 100% !important;
+}
+
+
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V {
+    bottom: unset !important;
+    left: unset !important;
+    z-index: 10 !important;
+    right: 0 !important;
+    padding-top: 0 !important;
+}
+
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V, #app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .tools-kIrEGr, #app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .container-O54IuJ, #app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .closeButton-PCZcma {
+    position: absolute !important;
+    right: 20px !important;
+    opacity: 1 !important;
+    cursor: pointer !important;
+    width: 32px !important;
+    height: 32px !important;
+    outline: 1px dashed cyan;
+}
+
+.closeButton-PCZcma:hover+.keybind-13vtq8 {
+    display: none;
+}
+
+#app-mount .layer-86YKbF.stop-animations:first-child::after {
+    content: none !important;
+}
