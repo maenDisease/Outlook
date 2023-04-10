@@ -789,6 +789,10 @@
   display: none;
 }
 
+.panels-3wFtMD {
+  background: none;
+}
+
 #app-mount .container-YkUktl {
   height: var(--titlebar-height);
   width: calc(100% - 72px - var(--theme-preview-width, 0px));
@@ -4314,4 +4318,10 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
 .styledGuildsAsChannels-DNHtg_ .sidebar-1tnWFu:has(.privateChannels-oVe7HL) ~ .chat-2ZfjoI .children-3xh0VB,
 .styledGuildsAsChannels-DNHtg_ .topControls-23RE3h {
   left: 248px;
+}
+
+.container-6sXIoE {
+  margin-bottom: 0;
+  border-bottom: none;
+  border-top: 1px solid var(--neutralTertiary);
 }
