@@ -1,76 +1,103 @@
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/SettingsSidebar.css);
-/* Layout */
-:root {
-  --settingsidebar-border-radius: 0;
-}
-
+/* root */
 .layer-86YKbF ~ .layer-86YKbF,
 .layer-86YKbF:has(~ .layer-86YKbF) {
   --settingsidebar-width: 320px;
 }
 
+/* base */
+.layer-86YKbF.baseLayer-W6S8cY.stop-animations {
+  margin-left: 0;
+  margin-right: var(--settingsidebar-width);
+}
+
+.baseLayer-W6S8cY.stop-animations + .stop-animations + .layer-86YKbF:not(.stop-animations) {
+  border: 1px solid var(--background-tertiary) !important;
+}
+
+.baseLayer-W6S8cY.stop-animations + .stop-animations + .stop-animations + .layer-86YKbF:not(.stop-animations) {
+  border: 1px solid var(--background-tertiary);
+}
+
 #app-mount .layer-86YKbF ~ .layer-86YKbF {
+  top: var(--titlebar-height) !important;
+  left: unset !important;
+  width: var(--settingsidebar-width) !important;
+  height: 100% !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
   box-shadow: var(--elevation-medium) !important;
 }
 
-#app-mount .layer-86YKbF ~ .layer-86YKbF {
-  border-radius: 0 !important;
-}
-
-#app-mount .layer-86YKbF.baseLayer-W6S8cY ~ .layer-86YKbF {
-  width: var(--settingsidebar-width) !important;
-  left: unset !important;
-  height: 100% !important;
-  margin: 0 !important;
-  top: var(--titlebar-height) !important;
+/* sidebar */
+.sidebarRegionScroller-FXiQOh {
+  background: var(--bg-overlay-chat, var(--gradient-kit-925a)), var(--background-primary);
 }
 
 .sidebarRegionScroller-FXiQOh:not(:hover) .item-2GWPIy.selected-1sf9UK {
   margin-top: 6px;
 }
 
-.layer-86YKbF.baseLayer-W6S8cY.stop-animations {
-  margin-left: 0;
-  margin-right: var(--settingsidebar-width);
-}
-
 .sidebarRegion-1VBisG:hover ~ .contentRegion-3HkfJJ {
   display: flex;
 }
 
-.sidebarRegion-1VBisG {
-  z-index: 11;
+#app-mount .layer-86YKbF ~ .layer-86YKbF .sidebarRegionScroller-FXiQOh {
+  flex: 1 !important;
 }
 
-body #app-mount .sidebarRegion-1VBisG:not(:hover) .sidebar-nqHbhN,
 body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebarRegion-1VBisG:not(:hover) .sidebar-nqHbhN {
   padding: 0 0 0 8px !important;
 }
 
-#app-mount .layer-86YKbF ~ .layer-86YKbF .sidebarRegion-1VBisG, #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebarRegionScroller-FXiQOh {
-  flex-grow: 1 !important;
-}
-
-body #app-mount .sidebar-nqHbhN, body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
+body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
   width: 100% !important;
 }
 
-#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V {
-  bottom: unset !important;
-  left: unset !important;
-  z-index: 10 !important;
-  right: 0 !important;
-  padding-top: 0 !important;
+/* contentregion */
+.contentRegion-3HkfJJ {
+  border-top: 1px solid var(--background-tertiary);
 }
 
-#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V, #app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .tools-kIrEGr, #app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .container-O54IuJ, #app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .closeButton-PCZcma {
+.contentColumn-1C7as6,
+.customColumn-2n-oKU {
+  min-width: unset;
+  width: 0;
+}
+
+/* close button */
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V {
+  bottom: unset !important;
+  top: 11px !important;
+  right: 11px !important;
+  left: unset !important;
+  z-index: 10 !important;
+  border-radius: 4px !important;
+  border: 1px solid transparent !important;
+}
+
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V:hover {
+  background: var(--background-modifier-hover) !important;
+}
+
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V:active {
+  background: var(--background-modifier-active) !important;
+  border-color: var(--background-modifier-active-border) !important;
+}
+
+.closeButton-PCZcma:active {
+  transform: none;
+}
+
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V,
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .tools-kIrEGr,
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .container-O54IuJ,
+#app-mount .layer-86YKbF ~ .layer-86YKbF .toolsContainer-25FL6V .closeButton-PCZcma {
   position: absolute !important;
-  right: 20px !important;
   opacity: 1 !important;
   cursor: pointer !important;
-  width: 32px !important;
-  height: 32px !important;
-  outline: 1px dashed cyan;
+  width: 40px !important;
+  height: 40px !important;
 }
 
 .closeButton-PCZcma:hover + .keybind-13vtq8 {
