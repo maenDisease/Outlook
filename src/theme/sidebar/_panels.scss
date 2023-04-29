@@ -36,7 +36,6 @@
     left: -72px;
 }
 
-
 .container-YkUktl>* {
     -webkit-app-region: no-drag;
 }
@@ -55,6 +54,12 @@
 #app-mount .avatarWrapper-1B9FTW:hover {
     background: var(--brand-760);
     border-radius: 0;
+    -webkit-transition: background .467s cubic-bezier(.1, .9, .2, 1) 34ms;
+    transition: background .467s cubic-bezier(.1, .9, .2, 1) 34ms;
+}
+
+.container-YkUktl .horizontal-112GEH {
+    gap: 0;
 }
 
 .container-YkUktl>.flex-2S1XBF>button {
@@ -67,6 +72,8 @@
 .container-YkUktl>.flex-2S1XBF>button:hover {
     color: #FFFFFF;
     background: var(--brand-760);
+    -webkit-transition: background .467s cubic-bezier(.1, .9, .2, 1) 34ms;
+    transition: background .467s cubic-bezier(.1, .9, .2, 1) 34ms;
 }
 
 .nameTag-sc-gpq {
