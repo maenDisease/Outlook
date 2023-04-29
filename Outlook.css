@@ -845,6 +845,11 @@
 #app-mount .avatarWrapper-1B9FTW:hover {
   background: var(--brand-760);
   border-radius: 0;
+  transition: background 0.467s cubic-bezier(0.1, 0.9, 0.2, 1) 34ms;
+}
+
+.container-YkUktl .horizontal-112GEH {
+  gap: 0;
 }
 
 .container-YkUktl > .flex-2S1XBF > button {
@@ -857,6 +862,7 @@
 .container-YkUktl > .flex-2S1XBF > button:hover {
   color: #FFFFFF;
   background: var(--brand-760);
+  transition: background 0.467s cubic-bezier(0.1, 0.9, 0.2, 1) 34ms;
 }
 
 .nameTag-sc-gpq {
