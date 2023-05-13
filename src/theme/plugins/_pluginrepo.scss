@@ -1,0 +1,21 @@
+.repoHeader-2KfNvH>.flex-2S1XBF:first-child {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    top: 0;
+    width: calc(100% + 41px);
+    padding: 20px;
+    margin-left: -21px;
+    z-index: 10;
+    background: var(--bg-overlay-chat, var(--gradient-kit-925a)), var(--background-primary);
+    border-bottom: 1px solid var(--background-tertiary);
+}
+
+.repoHeader-2KfNvH>.flex-2S1XBF:first-child h2 {
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.contentRegion-3HkfJJ {
+    background: var(--bg-overlay-chat, var(--gradient-kit-925a)), var(--background-primary);
+}
