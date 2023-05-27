@@ -51,12 +51,16 @@
 .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label]>svg {
     height: 20px;
     width: 20px;
+    flex-shrink: 0;
 }
 
 .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label]::after {
     content: attr(aria-label);
     font-size: 14px;
     margin-left: 4px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 #app-mount .children-3xh0VB:after {
