@@ -24,7 +24,7 @@
     top: var(--titlebar-height) !important;
     left: unset !important;
     width: var(--settingsidebar-width) !important;
-    height: 100% !important;
+    height: calc(100% - var(--titlebar-height)) !important;
     margin: 0 !important;
     border-radius: 0 !important;
     box-shadow: var(--elevation-medium) !important;
