@@ -30,7 +30,14 @@
 
 #app-mount .channelRow-4X_3fi {
     justify-content: start;
-    border-radius: 4px;
+}
+
+.channelRow-4X_3fi.firstChannel-3vAGDY {
+    border-radius: 4px 4px 0 0;
+}
+
+.channelRow-4X_3fi.lastChannel-21yyBC {
+    border-radius: 0 0 4px 4px;
 }
 
 .channelRow-4X_3fi:hover:not(.disabled-3cfocy) {
