@@ -1,13 +1,10 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
+specifiers:
+  bd-scss: ^2.0.14
 
 dependencies:
-  bd-scss:
-    specifier: ^2.0.12
-    version: 2.0.12
+  bd-scss: 2.0.14
 
 packages:
 
@@ -19,7 +16,7 @@ packages:
       picomatch: 2.3.1
     dev: false
 
-  /autoprefixer@10.4.14(postcss@8.4.21):
+  /autoprefixer/10.4.14_postcss@8.4.24:
     resolution: {integrity: sha512-FQzyfOsTlwVzjHxKEqRIAdJx9niO6VCBCoEwax/VLSoQF29ggECcPuBqUMZ+u8jCZOPSy8b8/8KnuFbp0SaFZQ==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
@@ -31,20 +28,20 @@ packages:
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
-      postcss: 8.4.21
+      postcss: 8.4.24
       postcss-value-parser: 4.2.0
     dev: false
 
-  /bd-scss@2.0.12:
-    resolution: {integrity: sha512-J3S0IfiWKLZxa0bcSHX4YoJMHTiQzCpqBPVXN/CtzkZStH82iQIHoHNl87LIhDsbp8J5Ez/X8v3VsLcf6hUp8g==}
+  /bd-scss/2.0.14:
+    resolution: {integrity: sha512-0bFjZ/WQD3ekR0aLhTb8hR+0KFMGMf8H1MBKMw06DGon4j7PkRvvrHHfpvDLH+klWYE82my3WQKWt3LMqtDd/Q==}
     hasBin: true
     dependencies:
-      autoprefixer: 10.4.14(postcss@8.4.21)
+      autoprefixer: 10.4.14_postcss@8.4.24
       chalk: 5.2.0
       chokidar: 3.5.3
-      postcss: 8.4.21
+      postcss: 8.4.24
       sade: 1.8.1
-      sass: 1.60.0
+      sass: 1.63.4
     dev: false
 
   /binary-extensions@2.2.0:
@@ -195,8 +192,8 @@ packages:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
     dev: false
 
-  /postcss@8.4.21:
-    resolution: {integrity: sha512-tP7u/Sn/dVxK2NnruI4H9BG+x+Wxz6oeZ1cJ8P6G/PZY0IKk4k/63TDsQf2kQq3+qoJeLm2kIBUNlZe3zgb4Zg==}
+  /postcss/8.4.24:
+    resolution: {integrity: sha512-M0RzbcI0sO/XJNucsGjvWU9ERWxb/ytp1w6dKtxTKgixdtQDq4rmx/g8W1hnaheq9jgwL/oyEdH5Bc4WwJKMqg==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.6
@@ -218,9 +215,9 @@ packages:
       mri: 1.2.0
     dev: false
 
-  /sass@1.60.0:
-    resolution: {integrity: sha512-updbwW6fNb5gGm8qMXzVO7V4sWf7LMXnMly/JEyfbfERbVH46Fn6q02BX7/eHTdKpE7d+oTkMMQpFWNUMfFbgQ==}
-    engines: {node: '>=12.0.0'}
+  /sass/1.63.4:
+    resolution: {integrity: sha512-Sx/+weUmK+oiIlI+9sdD0wZHsqpbgQg8wSwSnGBjwb5GwqFhYNwwnI+UWZtLjKvKyFlKkatRK235qQ3mokyPoQ==}
+    engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
       chokidar: 3.5.3
