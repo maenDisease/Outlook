@@ -1,17 +1,17 @@
-#app-mount .container-1NXEtd {
+#app-mount .container__590e2 {
     background: none;
 }
 
-.animatedContainer-2laTjx {
+.animatedContainer__341f6 {
     scale: 0.93;
     border-radius: 4px;
 }
 
-.link-1_kTxV .name-28HaxV {
+.link__95dc0 .name__8d1ec {
     font-size: 12px;
 }
 
-.link-1_kTxV .icon-2W8DHg {
+.link__95dc0 .icon_eff5d4 {
     display: block;
     width: 16px;
     height: 16px;
@@ -20,53 +20,53 @@
     flex: 0 0 auto;
 }
 
-.wrapper-NhbLHG:not(.typeThread-2Aqh6X) .link-1_kTxV {
+.wrapper__7bcde:not(.typeThread__2f91c) .link__95dc0 {
     padding-left: 24px;
 }
 
-.typeThread-2Aqh6X .link-1_kTxV {
+.typeThread__2f91c .link__95dc0 {
     margin-left: 12px;
 }
 
-.spine-29OFwR,
-.spineBorder-1-F4s1 {
+.spine__88e6d,
+.spineBorder_bdec8b {
     left: 36px;
 }
 
-.wrapper-1S43wv .container-q97qHp {
+.wrapper__9c483 .container-q97qHp {
     text-transform: capitalize;
     margin-left: 18px;
 }
 
-.wrapper-1S43wv .icon-3zI3d2 {
+.wrapper__9c483 .icon_ef4486 {
     left: 12px;
     top: 4px;
     width: 16px;
     height: 16px;
 }
 
-.modeSelected-3DmyhH .link-1_kTxV,
-.modeSelected-3DmyhH:hover .link-1_kTxV {
+.modeSelected__487d6 .link__95dc0,
+.modeSelected__487d6:hover .link__95dc0 {
     background: var(--bg-overlay-selected, var(--gradient-kit-60a)), var(--secondarySurfaceSelected);
 }
 
-.modeSelected-3DmyhH .icon-2W8DHg,
-.modeSelected-3DmyhH:hover .icon-2W8DHg {
+.modeSelected__487d6 .icon_eff5d4,
+.modeSelected__487d6:hover .icon_eff5d4 {
     color: var(--interactive-active);
 }
 
-.modeConnected-NrO4cP .name-28HaxV,
-.modeConnected-NrO4cP:hover .name-28HaxV,
-.modeSelected-3DmyhH .name-28HaxV,
-.modeSelected-3DmyhH:hover .name-28HaxV,
-.modeUnread-3Cxepe .name-28HaxV,
-.modeUnread-3Cxepe:hover .name-28HaxV,
-.notInteractive-2tFrlE.modeConnected-NrO4cP .name-28HaxV,
-.notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV {
+.modeConnected__1c02e .name__8d1ec,
+.modeConnected__1c02e:hover .name__8d1ec,
+.modeSelected__487d6 .name__8d1ec,
+.modeSelected__487d6:hover .name__8d1ec,
+.modeUnread_f74c03 .name__8d1ec,
+.modeUnread_f74c03:hover .name__8d1ec,
+.notInteractive_a7d9fb.modeConnected__1c02e .name__8d1ec,
+.notInteractive_a7d9fb.modeSelected__487d6 .name__8d1ec {
     font-weight: 600;
 }
 
-.unread-36eUEm {
+.unread__48cf4 {
     position: absolute;
     height: 16px;
     width: 4px;
@@ -76,6 +76,6 @@
     margin-top: -8px;
 }
 
-.unreadRelevant-2f-VSK {
+.unreadRelevant__44f9e {
     background: var(--brand-experiment);
 }

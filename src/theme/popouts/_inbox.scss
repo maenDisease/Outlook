@@ -1,19 +1,19 @@
-.recentMentionsPopout-2bI1ZN .header-1w9Q93 {
+.recentMentionsPopout__826a9 .header_f5cc88 {
     padding: 10px 16px 10px 16px;
     height: unset;
     min-height: unset;
 }
 
-.header-3_zmOb {
+.header__53b07 {
     height: unset;
     min-height: unset;
 }
 
-.header-1w9Q93 h1 {
+.header_f5cc88 h1 {
     font-weight: 600;
 }
 
-.messageGroupWrapper-1jf_7C {
+.messageGroupWrapper_f8c6e9 {
     background: var(--n-yellow-canvas);
     border: none;
     border-radius: 8px;
@@ -21,9 +21,9 @@
     margin: 0 0 16px;
 }
 
-.messageGroupWrapper-1jf_7C::before,
-.recentMentionsPopout-2bI1ZN .container-iA3Qrz::before,
-.recentMentionsPopout-2bI1ZN .channel-3NJZ1V::before {
+.messageGroupWrapper_f8c6e9::before,
+.recentMentionsPopout__826a9 .container__56e52::before,
+.recentMentionsPopout__826a9 .channel_d48f2d::before {
     content: '';
     width: 100%;
     height: 6px;
@@ -33,43 +33,43 @@
     left: 0;
 }
 
-.recentMentionsPopout-2bI1ZN .container-iA3Qrz,
-.recentMentionsPopout-2bI1ZN .channel-3NJZ1V {
+.recentMentionsPopout__826a9 .container__56e52,
+.recentMentionsPopout__826a9 .channel_d48f2d {
     background: var(--n-yellow-canvas);
     position: relative;
     box-shadow: var(--elevation-card);
 }
 
-.recentMentionsPopout-2bI1ZN .channelHeader-DFRX8q {
+.recentMentionsPopout__826a9 .channelHeader__5d30c {
     background: none;
     border-bottom: none;
     padding: 16px 16px 0 16px;
 }
 
-.controls-1rku3l .button-1_oXub[aria-label] {
+.controls__2aaac .button_ddf91e[aria-label] {
     width: unset;
 }
 
-.controls-1rku3l .button-1_oXub[aria-label]::after {
+.controls__2aaac .button_ddf91e[aria-label]::after {
     content: attr(aria-label);
     font-size: 12px;
 }
 
-.controls-1rku3l .button-1_oXub[aria-label] svg {
+.controls__2aaac .button_ddf91e[aria-label] svg {
     margin-right: 7px;
 }
 
-.controls-1rku3l .button-1_oXub[aria-label]:not(.disabled-184-il) {
+.controls__2aaac .button_ddf91e[aria-label]:not(.disabled__8e315) {
     background: none;
     border-radius: 4px;
     padding: 6px 10px;
     transition: none;
 }
 
-.controls-1rku3l .button-1_oXub[aria-label]:not(.disabled-184-il):hover {
+.controls__2aaac .button_ddf91e[aria-label]:not(.disabled__8e315):hover {
     background: var(--background-modifier-hover);
 }
 
-.controls-1rku3l .button-1_oXub[aria-label]:not(.disabled-184-il):active {
+.controls__2aaac .button_ddf91e[aria-label]:not(.disabled__8e315):active {
     background: var(--background-modifier-active);
 }

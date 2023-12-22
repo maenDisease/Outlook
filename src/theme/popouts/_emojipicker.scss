@@ -1,17 +1,17 @@
-.contentWrapper-3vHNP2 {
+.contentWrapper__321ed {
     background: var(--background-primary);
     -webkit-box-shadow: var(--elevation-high);
     box-shadow: var(--elevation-high);
 }
 
-.emojiPicker-6YCk8a {
+.emojiPicker_b65ce9 {
     background: var(--background-primary);
     border-radius: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
 
-.navButton-1XuvI- {
+.navButton__05cc7 {
     border-radius: 4px;
     color: var(--interactive-normal);
     font-size: 14px;
@@ -21,30 +21,30 @@
     transition: none;
 }
 
-.navItem-3McpmW+.navItem-3McpmW {
+.navItem_df0bc1+.navItem_df0bc1 {
     margin-left: 0;
 }
 
-.navButton-1XuvI-:hover {
+.navButton__05cc7:hover {
     background: var(--background-modifier-hover);
 }
 
-.navButton-1XuvI-:active {
+.navButton__05cc7:active {
     background: var(--background-modifier-active);
 }
 
-.navButtonActive-1EqC5l {
+.navButtonActive__735cb {
     background: none;
     color: var(--header-primary);
     font-weight: 600;
 }
 
-.navButtonActive-1EqC5l,
-.navButtonActive-1EqC5l:hover {
+.navButtonActive__735cb,
+.navButtonActive__735cb:hover {
     color: var(--header-primary);
 }
 
-.navButton-1XuvI-::after {
+.navButton__05cc7::after {
     position: absolute;
     content: '';
     height: 2px;
@@ -53,98 +53,98 @@
     transition: width 0.267s cubic-bezier(0.1, 0.25, 0.75, 0.9) 0s;
 }
 
-.navButtonActive-1EqC5l::after {
+.navButtonActive__735cb::after {
     background: var(--brand-experiment);
 }
 
-.navButtonActive-1EqC5l:hover::after {
+.navButtonActive__735cb:hover::after {
     width: 90%;
 }
 
-.container-1SX9VC,
-.container-2oNtJn {
+.container_e4c233,
+.container__7712a {
     background: var(--background-secondary);
     border: 1px solid var(--neutralTertiary);
 }
 
-.container-1SX9VC .iconLayout-SqV3nb,
-.container-2oNtJn .iconLayout-3Bjizv {
+.container_e4c233 .iconLayout__9fbb1,
+.container__7712a .iconLayout__6d744 {
     order: -1;
     border-radius: 4px;
 }
 
-.container-1SX9VC .clear-2KQ7l1:hover,
-.container-2oNtJn .pointer-1msEBz:hover {
+.container_e4c233 .clear_e3e382:hover,
+.container__7712a .pointer__4ee20:hover {
     background: var(--background-modifier-hover);
 }
 
-.container-1SX9VC .clear-2KQ7l1:active,
-.container-2oNtJn .pointer-1msEBz:active {
+.container_e4c233 .clear_e3e382:active,
+.container__7712a .pointer__4ee20:active {
     background: var(--background-modifier-active);
 }
 
-.medium-13kyaW .input-2FSSDe,
-.medium-13kyaW .tag-15zcD_,
-.medium-2NClDM .input-2m5SfJ,
-.medium-2NClDM .tag-Pxnlt9 {
+.medium__2d9f3 .input_f4043f,
+.medium__2d9f3 .tag__69d9d,
+.medium__0fb5d .input__74754,
+.medium__0fb5d .tag__3ba94 {
     padding-left: 0;
     font-size: 14px;
 }
 
-.header-11eigE {
+.header__55964 {
     -webkit-box-shadow: none;
     box-shadow: none;
     border-bottom: 1px solid var(--background-tertiary);
     background: var(--background-primary);
 }
 
-.categoryList-2GgCrD,
-.emojiPickerHasTabWrapper-LoluYe .categoryList-2qRrlj {
+.categoryList__5dbc1,
+.emojiPickerHasTabWrapper__80686 .categoryList_f8c48f {
     top: 53px;
 }
 
-.wrapper-1NNaWG {
+.wrapper__7a35f {
     background: var(--background-primary);
 }
 
-.header-1XpmZs {
+.header__9f6dc {
     color: var(--header-primary);
     height: 100%;
     border-radius: 4px;
 }
 
-.header-1XpmZs:hover {
+.header__9f6dc:hover {
     background: var(--background-modifier-hover);
 }
 
-.header-1XpmZs:active {
+.header__9f6dc:active {
     background: var(--background-modifier-active);
 }
 
-.headerLabel-1g790w {
+.headerLabel_e9f74f {
     text-transform: capitalize;
 }
 
-.header-1XpmZs .arrow-2HswgU {
+.header__9f6dc .arrow_cb03b8 {
     order: -1;
     margin: 0 8px;
 }
 
-#app-mount .emojiItem-277VFM.emojiItemSelected-2Lg50V {
+#app-mount .emojiItem_b15dee.emojiItemSelected__1a09a {
     background: var(--background-modifier-hover);
 }
 
-#app-mount .emojiItem-277VFM.emojiItemSelected-2Lg50V:active {
+#app-mount .emojiItem_b15dee.emojiItemSelected__1a09a:active {
     background: var(--background-modifier-active);
 }
 
-#app-mount .header-2TLOnc {
+#app-mount .header_f7f1f3 {
     -webkit-box-shadow: none;
     box-shadow: none;
     border-bottom: 1px solid var(--background-tertiary);
 }
 
-#app-mount .container-3u7RcY {
+#app-mount .container_aab957 {
     background: var(--background-primary);
 }
 
@@ -155,6 +155,6 @@
     box-shadow: var(--elevation-high);
 }
 
-.inspector-DFKXwB {
+.inspector__993e1 {
     background: var(--background-secondary);
 }

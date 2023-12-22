@@ -1,26 +1,26 @@
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/SettingsSidebar.css);
 
 /* root */
-.layer-86YKbF~.layer-86YKbF,
-.layer-86YKbF:has(~.layer-86YKbF) {
+.layer__2efaa ~.layer__2efaa ,
+.layer__2efaa :has(~.layer__2efaa ) {
     --settingsidebar-width: 320px;
 }
 
 /* base */
-.layer-86YKbF.baseLayer-W6S8cY.stop-animations {
+.layer__2efaa .baseLayer__8fda3.stop-animations {
     margin-left: 0;
     margin-right: var(--settingsidebar-width);
 }
 
-.baseLayer-W6S8cY.stop-animations+.stop-animations+.layer-86YKbF:not(.stop-animations) {
+.baseLayer__8fda3.stop-animations+.stop-animations+.layer__2efaa :not(.stop-animations) {
     border: 1px solid var(--background-tertiary) !important;
 }
 
-.baseLayer-W6S8cY.stop-animations+.stop-animations+.stop-animations+.layer-86YKbF:not(.stop-animations) {
+.baseLayer__8fda3.stop-animations+.stop-animations+.stop-animations+.layer__2efaa :not(.stop-animations) {
     border: 1px solid var(--background-tertiary);
 }
 
-#app-mount .layer-86YKbF~.layer-86YKbF {
+#app-mount .layer__2efaa ~.layer__2efaa  {
     top: var(--titlebar-height) !important;
     left: unset !important;
     width: var(--settingsidebar-width) !important;
@@ -31,39 +31,39 @@
 }
 
 /* sidebar */
-.sidebarRegionScroller-FXiQOh {
+.sidebarRegionScroller__1fa7e {
     background: var(--bg-overlay-chat, var(--gradient-kit-925a)), var(--background-primary);
 }
 
-.sidebarRegionScroller-FXiQOh:not(:hover) .item-2GWPIy.selected-1sf9UK {
+.sidebarRegionScroller__1fa7e:not(:hover) .item__48dda.selected__5711d {
     margin-top: 6px;
 }
 
-#app-mount .layer-86YKbF~.layer-86YKbF .sidebarRegionScroller-FXiQOh {
+#app-mount .layer__2efaa ~.layer__2efaa  .sidebarRegionScroller__1fa7e {
     flex: 1 !important;
 }
 
-body #app-mount .layer-86YKbF~.layer-86YKbF .sidebarRegion-1VBisG:not(:hover) .sidebar-nqHbhN {
+body #app-mount .layer__2efaa ~.layer__2efaa  .sidebarRegion__60457:not(:hover) .sidebar__9e3e2 {
     padding: 0 0 0 8px !important;
 }
 
-body #app-mount .layer-86YKbF~.layer-86YKbF .sidebar-nqHbhN {
+body #app-mount .layer__2efaa ~.layer__2efaa  .sidebar__9e3e2 {
     width: 100% !important;
 }
 
 /* contentregion */
-.contentRegion-3HkfJJ {
+.contentRegion__0bec1 {
     border-top: 1px solid var(--background-tertiary);
 }
 
-.contentColumn-1C7as6,
-.customColumn-2n-oKU {
+.contentColumn_dc7d36,
+.customColumn_e22a6e {
     min-width: unset;
     width: 0;
 }
 
 /* close button */
-#app-mount .layer-86YKbF~.layer-86YKbF .toolsContainer-25FL6V {
+#app-mount .layer__2efaa ~.layer__2efaa  .toolsContainer_f5d55d {
     bottom: unset !important;
     top: 11px !important;
     right: 11px !important;
@@ -73,24 +73,24 @@ body #app-mount .layer-86YKbF~.layer-86YKbF .sidebar-nqHbhN {
     border: 1px solid transparent !important;
 }
 
-#app-mount .layer-86YKbF~.layer-86YKbF .toolsContainer-25FL6V:hover {
+#app-mount .layer__2efaa ~.layer__2efaa  .toolsContainer_f5d55d:hover {
     background: var(--background-modifier-hover) !important;
 }
 
-#app-mount .layer-86YKbF~.layer-86YKbF .toolsContainer-25FL6V:active {
+#app-mount .layer__2efaa ~.layer__2efaa  .toolsContainer_f5d55d:active {
     background: var(--background-modifier-active) !important;
     border-color: var(--background-modifier-active-border) !important;
 }
 
-.closeButton-PCZcma:active {
+.closeButton__34341:active {
     -webkit-transform: none;
     transform: none;
 }
 
-#app-mount .layer-86YKbF~.layer-86YKbF .toolsContainer-25FL6V,
-#app-mount .layer-86YKbF~.layer-86YKbF .toolsContainer-25FL6V .tools-kIrEGr,
-#app-mount .layer-86YKbF~.layer-86YKbF .toolsContainer-25FL6V .container-O54IuJ,
-#app-mount .layer-86YKbF~.layer-86YKbF .toolsContainer-25FL6V .closeButton-PCZcma {
+#app-mount .layer__2efaa ~.layer__2efaa  .toolsContainer_f5d55d,
+#app-mount .layer__2efaa ~.layer__2efaa  .toolsContainer_f5d55d .tools_c0ff70,
+#app-mount .layer__2efaa ~.layer__2efaa  .toolsContainer_f5d55d .container_bb0c52,
+#app-mount .layer__2efaa ~.layer__2efaa  .toolsContainer_f5d55d .closeButton__34341 {
     position: absolute !important;
     opacity: 1 !important;
     cursor: pointer !important;
@@ -98,10 +98,10 @@ body #app-mount .layer-86YKbF~.layer-86YKbF .sidebar-nqHbhN {
     height: 40px !important;
 }
 
-.closeButton-PCZcma:hover+.keybind-13vtq8 {
+.closeButton__34341:hover+.keybind__57645 {
     display: none;
 }
 
-#app-mount .layer-86YKbF.stop-animations:first-child::after {
+#app-mount .layer__2efaa .stop-animations:first-child::after {
     content: none !important;
 }

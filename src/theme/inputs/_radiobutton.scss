@@ -1,22 +1,22 @@
-.labelRow-NnoUIp label {
+.labelRow__523f2 label {
     font-size: 14px;
     line-height: 20px;
 }
 
-.labelRow-NnoUIp .control-10qYax {
+.labelRow__523f2 .control_f6cce7 {
     order: -1;
     margin-right: 8px;
 }
 
-.dependentSetting-2ewJ4W {
+.dependentSetting_a6ce9a {
     padding-left: 0;
 }
 
-.radioBar-1XgZqD {
+.radioBar__40e1b {
     border: none;
 }
 
-.radioBar-1XgZqD[style*="--radio-bar-accent-color"]::before {
+.radioBar__40e1b[style*="--radio-bar-accent-color"]::before {
     content: '';
     display: flex;
     position: absolute;
@@ -27,38 +27,38 @@
     background: var(--radio-bar-accent-color);
 }
 
-#app-mount [role=radiogroup] .item-1TA5qI {
+#app-mount [role=radiogroup] .item_b7fb7e {
     background: transparent;
     margin: 0;
     border-radius: 0;
 }
 
-#app-mount [role=radiogroup] .item-1TA5qI .radioBar-1XgZqD {
+#app-mount [role=radiogroup] .item_b7fb7e .radioBar__40e1b {
     padding: 0 !important;
     margin: 16px 0;
 }
 
-#app-mount [role=radiogroup] .item-1TA5qI:hover {
+#app-mount [role=radiogroup] .item_b7fb7e:hover {
     color: var(--interactive-hover);
 }
 
-#app-mount [role=radiogroup] .item-1TA5qI:active {
+#app-mount [role=radiogroup] .item_b7fb7e:active {
     color: var(--interactive-active);
 }
 
-#app-mount [role=radiogroup] .item-1TA5qI[aria-checked=true] {
+#app-mount [role=radiogroup] .item_b7fb7e[aria-checked=true] {
     color: var(--header-primary);
 }
 
-#app-mount [role=radiogroup] .item-1TA5qI[aria-checked=true] .radioBar-1XgZqD>div:first-child {
+#app-mount [role=radiogroup] .item_b7fb7e[aria-checked=true] .radioBar__40e1b>div:first-child {
     border-color: var(--brand-experiment);
 }
 
-#app-mount [role=radiogroup] .item-1TA5qI[aria-checked=true] .radioBar-1XgZqD>div:first-child::before {
+#app-mount [role=radiogroup] .item_b7fb7e[aria-checked=true] .radioBar__40e1b>div:first-child::before {
     background: var(--brand-experiment);
 }
 
-#app-mount [role=radiogroup] .radioBar-1XgZqD>div:first-child {
+#app-mount [role=radiogroup] .radioBar__40e1b>div:first-child {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,7 +70,7 @@
     border: 1px solid var(--text-muted);
 }
 
-#app-mount [role=radiogroup] .radioBar-1XgZqD>div:first-child::before {
+#app-mount [role=radiogroup] .radioBar__40e1b>div:first-child::before {
     content: '';
     width: 10px;
     height: 10px;
@@ -78,10 +78,10 @@
     transition: all 0.1s ease 0s;
 }
 
-#app-mount [role=radiogroup] .radioBar-1XgZqD:hover>div:first-child::before {
+#app-mount [role=radiogroup] .radioBar__40e1b:hover>div:first-child::before {
     background: var(--text-muted);
 }
 
-#app-mount [role=radiogroup] .radioBar-1XgZqD svg {
+#app-mount [role=radiogroup] .radioBar__40e1b svg {
     display: none;
 }

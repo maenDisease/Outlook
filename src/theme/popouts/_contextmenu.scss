@@ -1,83 +1,83 @@
-.flexible-3B4jwn {
+.flexible__7055b {
     min-width: 180px;
 }
 
-.menu-2TXYjN:not(#account) {
+.menu_dc52c6:not(#account) {
     max-height: 802px;
     border-radius: 8px;
     overflow: hidden;
 }
 
-.layer-2BGhQ8[style*="left"] .submenuPaddingContainer-QgnL1r {
+.layer_ec16dd[style*="left"] .submenuPaddingContainer__12a9d {
     padding-left: 0;
     margin-left: -4px;
 }
 
-.layer-2BGhQ8[style*="right"] .submenuPaddingContainer-QgnL1r {
+.layer_ec16dd[style*="right"] .submenuPaddingContainer__12a9d {
     padding-right: 0;
     margin-right: -4px;
 }
 
-.scroller-nxCRu_ {
+.scroller__750f5 {
     padding: 0 !important;
     overflow: overlay !important;
 }
 
-#account.menu-2TXYjN.flexible-3B4jwn {
+#account.menu_dc52c6.flexible__7055b {
     min-width: 100%;
 }
 
-#account.menu-2TXYjN div[role=separator] {
+#account.menu_dc52c6 div[role=separator] {
     border-color: var(--profile-body-divider-color);
     margin: 0 12px;
 }
 
-#app-mount .scroller-nxCRu_:not(:hover)::-webkit-scrollbar-thumb {
+#app-mount .scroller__750f5:not(:hover)::-webkit-scrollbar-thumb {
     background: none;
 }
 
-.item-5ApiZt {
+.item__183e8 {
     margin: 0;
     border-radius: 0;
     font-size: 12px;
     line-height: 18px;
 }
 
-.item-5ApiZt .label-3CEiKJ {
+.item__183e8 .label__73cb9 {
     margin: 0px 4px;
 }
 
-.labelContainer-35-WEd {
+.labelContainer_bc2861 {
     min-height: 36px;
     padding-left: 24px;
 }
 
-.item-5ApiZt.colorDefault-2_rLdz:not(.colorDanger-3umuSx) {
+.item__183e8.colorDefault__0b482:not(.colorDanger_eec36d) {
     color: var(--interactive-active);
 }
 
-.item-5ApiZt.colorDefault-2_rLdz.focused-3LIdPu:not(.colorDanger-3umuSx) {
+.item__183e8.colorDefault__0b482.focused__27621:not(.colorDanger_eec36d) {
     background: var(--background-modifier-hover);
 }
 
-.item-5ApiZt.colorDefault-2_rLdz.focused-3LIdPu:not(.colorDanger-3umuSx):active {
+.item__183e8.colorDefault__0b482.focused__27621:not(.colorDanger_eec36d):active {
     background: var(--background-modifier-active);
 }
 
-.item-5ApiZt.colorDefault-2_rLdz.focused-3LIdPu:not(.colorDanger-3umuSx) {
+.item__183e8.colorDefault__0b482.focused__27621:not(.colorDanger_eec36d) {
     color: var(--neutralDark);
 }
 
-.item-5ApiZt.colorDefault-2_rLdz.focused-3LIdPu:not(.colorDanger-3umuSx) .iconContainer-Ksy8Oj {
+.item__183e8.colorDefault__0b482.focused__27621:not(.colorDanger_eec36d) .iconContainer__829e7 {
     color: var(--themeDarkAlt);
 }
 
-.colorDefault-2_rLdz:active:not(.hideInteraction-1vQrZJ) {
+.colorDefault__0b482:active:not(.hideInteraction__2790e) {
     background: var(--background-modifier-active);
     color: var(--interactive-active);
 }
 
-.item-5ApiZt .iconContainer-Ksy8Oj:has(.icon-3XHs8t) {
+.item__183e8 .iconContainer__829e7:has(.icon_f09dde) {
     margin: 0px 4px;
     order: -1;
     display: flex;
@@ -85,28 +85,28 @@
     justify-content: center;
 }
 
-.hintContainer-CsCBWg,
-.imageContainer-3UDrmv {
+.hintContainer__79e5e,
+.imageContainer_ea60f4 {
     max-height: 18px;
     margin: 0px 4px;
     order: -1;
 }
 
-.item-5ApiZt .icon-3XHs8t {
+.item__183e8 .icon_f09dde {
     width: 16px;
     height: 16px;
 }
 
-.separator-12G2Op {
+.separator__18122 {
     margin: 0;
     border-bottom: 1px solid var(--background-tertiary);
 }
 
-.wrapper--nA0oy {
+.wrapper__2e846 {
     padding: 8px;
 }
 
-.customItem-1KYL7t {
+.customItem__7173b {
     color: var(--interactive-normal);
     border-color: var(--interactive-normal);
     font-size: 14px;
@@ -114,7 +114,7 @@
     line-height: 18px;
 }
 
-.button-1zW0-r {
+.button__3ecb4 {
     width: 32px;
     height: 32px;
     padding: 0;
@@ -122,19 +122,19 @@
     background: none;
 }
 
-.button-1zW0-r:hover,
-.keyboard-mode .button-1zW0-r.focused-H4w81f {
+.button__3ecb4:hover,
+.keyboard-mode .button__3ecb4.focused__47631 {
     background: var(--background-modifier-hover);
 }
 
-.caret-1TZU-U {
+.caret_ce50ce {
     width: 12px;
     height: 12px;
 }
 
-.colorDefault-2_rLdz.focused-3LIdPu .caret-1TZU-U,
-.colorDefault-2_rLdz.focused-3LIdPu .checkbox-397WsK,
-.colorDefault-2_rLdz.focused-3LIdPu .radioSelection-3PDNAQ,
-.colorDefault-2_rLdz.focused-3LIdPu .subtext-1mqKVB {
+.colorDefault__0b482.focused__27621 .caret_ce50ce,
+.colorDefault__0b482.focused__27621 .checkbox__45366,
+.colorDefault__0b482.focused__27621 .radioSelection__5ed39,
+.colorDefault__0b482.focused__27621 .subtext__8a015 {
     color: var(--text-muted);
 }

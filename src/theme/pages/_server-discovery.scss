@@ -1,8 +1,8 @@
-#app-mount .content-1SgpWY:has(.pageWrapper-2PwDoS) {
+#app-mount .content__4bf10:has(.pageWrapper_fef757) {
     margin-top: var(--panel-spacing);
 }
 
-.pageWrapper-2PwDoS {
+.pageWrapper_fef757 {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     border-top: 1px solid var(--neutralTertiary);
@@ -10,64 +10,64 @@
     border-right: 1px solid var(--neutralTertiary);
 }
 
-#app-mount .pageWrapper-2PwDoS {
+#app-mount .pageWrapper_fef757 {
     background: var(--bg-overlay-chat, var(--gradient-kit-925a)), var(--background-primary);
 }
 
-#app-mount .card-2TuZPZ,
-#app-mount .iconMask-2fMR98 {
+#app-mount .card__86773,
+#app-mount .iconMask__1aff7 {
     background: var(--n-gray-canvas);
 }
 
-#app-mount .card-2TuZPZ {
+#app-mount .card__86773 {
     transform: none;
 }
 
-#app-mount .card-2TuZPZ:focus,
-#app-mount .card-2TuZPZ:hover {
+#app-mount .card__86773:focus,
+#app-mount .card__86773:hover {
     -webkit-box-shadow: var(--n-note-box-shadow), var(--n-preview-box-shadow-selected);
     box-shadow: var(--n-note-box-shadow), var(--n-preview-box-shadow-selected);
 }
 
-.icon-3BYlXK {
+.icon__5b3a5 {
     color: var(--header-primary);
 }
 
-.card-2TuZPZ {
+.card__86773 {
     box-shadow: var(--n-note-box-shadow);
 }
 
-.categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui {
+.categoryItem_b1be5c.selectedCategoryItem__0bf4c {
     color: var(--interactive-active);
 }
 
-.categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui .itemInner-3e_4G4 {
+.categoryItem_b1be5c.selectedCategoryItem__0bf4c .itemInner__9e755 {
     background: var(--secondarySurfaceSelected);
 }
 
-.categoryItem-Kc_HK_ .avatar-6qzftW {
+.categoryItem_b1be5c .avatar__6337f {
     width: 16px;
     height: 16px;
     margin-right: 12px;
 }
 
-.categoryItem-Kc_HK_ .name-3Vmqxm {
+.categoryItem_b1be5c .name__16feb {
     font-size: 12px;
     line-height: 16px;
     font-weight: 400;
 }
 
-.categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui .name-3Vmqxm {
+.categoryItem_b1be5c.selectedCategoryItem__0bf4c .name__16feb {
     color: var(--interactive-active);
     font-weight: 600;
 }
 
-.categoryItem-Kc_HK_ .wrappedLayout-31F4iI {
+.categoryItem_b1be5c .wrappedLayout_fd7073 {
     height: auto;
     padding: 4px 8px;
 }
 
-.categoryItem-Kc_HK_.container-1oeRFJ {
+.categoryItem_b1be5c.container__4f20e {
     padding-top: 0;
     padding-bottom: 4px;
 }

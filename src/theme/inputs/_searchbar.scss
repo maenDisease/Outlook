@@ -1,51 +1,51 @@
-.searchBar-2aylmZ {
+.searchBar_ff8800 {
     margin: 16px 16px 0 16px;
     background: var(--background-secondary);
     border: 1px solid var(--neutralTertiary);
 }
 
-.searchBar-2aylmZ .inner-2pOSmK {
+.searchBar_ff8800 .inner__999f6 {
     padding: 0;
 }
 
-.search-39IXmY {
+.search__07df0 {
     margin: 0;
     position: fixed;
     top: 8px;
     left: 320px;
 }
 
-.searchBar-jGtisZ {
+.searchBar_e0c60b {
     height: 32px;
     min-width: 350px;
     flex: 1 1 350px;
     background: var(--brand-experiment-200);
 }
 
-.theme-dark .searchBar-jGtisZ {
+.theme-dark .searchBar_e0c60b {
     background: var(--brand-experiment-700);
 }
 
-.focused-1xh-wG .searchBar-jGtisZ,
-.open-1F8u2c .searchBar-jGtisZ {
+.focused_ddee54 .searchBar_e0c60b,
+.open_d3ab4e .searchBar_e0c60b {
     max-width: 928px;
     background: var(--background-primary);
     width: unset;
 }
 
-.searchBar-jGtisZ .icon-tZMHgY {
+.searchBar_e0c60b .icon__46425 {
     width: 32px;
     height: 32px;
     transform: scaleX(-1);
     order: -1;
 }
 
-.searchBar-jGtisZ .icon-tZMHgY .iconContainer-1RqWJj {
+.searchBar_e0c60b .icon__46425 .iconContainer__8fa9c {
     height: 20px;
     width: 20px;
 }
 
-.search-2Mwzzq .DraftEditor-root {
+.search_ac353c .DraftEditor-root {
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
@@ -55,21 +55,21 @@
     padding: 6px 0;
 }
 
-.search-2Mwzzq .DraftEditor-root .public-DraftEditorPlaceholder-root {
+.search_ac353c .DraftEditor-root .public-DraftEditorPlaceholder-root {
     color: var(--brand-experiment-600);
 }
 
-.theme-dark .search-2Mwzzq .DraftEditor-root .public-DraftEditorPlaceholder-root,
-.theme-dark .searchBar-jGtisZ .icon-18rqoe {
+.theme-dark .search_ac353c .DraftEditor-root .public-DraftEditorPlaceholder-root,
+.theme-dark .searchBar_e0c60b .icon_f50f05 {
     color: var(--brand-experiment-130);
 }
 
-.searchBar-3TnChZ {
+.searchBar_e4ea2a {
     -webkit-box-shadow: none;
     box-shadow: none;
 }
 
-.input-3r5zZY {
+.input__848cd {
     padding: 0 12px;
     font-size: 20px;
     border-radius: 4px;
@@ -80,6 +80,6 @@
     background: var(--background-secondary);
 }
 
-.search-kg4MrS {
+.search__4a09e {
     border-radius: 4px;
 }
