@@ -2,7 +2,8 @@
     background: var(--bg-overlay-4, var(--gradient-kit-50a)), var(--background-tertiary);
 }
 
-.platform-osx .wrapper_a7e7a8 {
+.platform-osx .wrapper_a7e7a8,
+.platform-linux .wrapper_a7e7a8 {
     margin-top: 0;
 }
 
