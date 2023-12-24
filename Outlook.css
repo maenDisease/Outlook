@@ -543,7 +543,8 @@
   background: var(--bg-overlay-4, var(--gradient-kit-50a)), var(--background-tertiary);
 }
 
-.platform-osx .wrapper_a7e7a8 {
+.platform-osx .wrapper_a7e7a8,
+.platform-linux .wrapper_a7e7a8 {
   margin-top: 0;
 }
 
@@ -1001,7 +1002,8 @@
   margin-right: 19px;
 }
 
-.chat__52833 {
+.chat__52833,
+.wrapper__3d460 {
   background: none;
 }
 
@@ -1637,7 +1639,7 @@
   filter: none;
 }
 
-.container-3wLKDe {
+.container_b181b6 {
   background: var(--bg-overlay-chat, var(--gradient-kit-925a)), var(--background-primary);
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
@@ -1646,7 +1648,7 @@
   border-right: 1px solid var(--neutralTertiary);
 }
 
-.threadSidebarOpen_fa231d .container-3wLKDe {
+.threadSidebarOpen_fa231d .container_b181b6 {
   border-color: var(--background-tertiary);
 }
 
