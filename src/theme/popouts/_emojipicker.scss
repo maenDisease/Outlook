@@ -1,17 +1,17 @@
-.contentWrapper__321ed {
+.contentWrapper_e0bb2c {
     background: var(--background-primary);
     -webkit-box-shadow: var(--elevation-high);
     box-shadow: var(--elevation-high);
 }
 
-.emojiPicker_b65ce9 {
+.emojiPicker__5e2e2 {
     background: var(--background-primary);
     border-radius: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
 
-.navButton__05cc7 {
+.navButton_b588d0 {
     border-radius: 4px;
     color: var(--interactive-normal);
     font-size: 14px;
@@ -21,30 +21,30 @@
     transition: none;
 }
 
-.navItem_df0bc1+.navItem_df0bc1 {
+.navItem__38e35+.navItem__38e35 {
     margin-left: 0;
 }
 
-.navButton__05cc7:hover {
+.navButton_b588d0:hover {
     background: var(--background-modifier-hover);
 }
 
-.navButton__05cc7:active {
+.navButton_b588d0:active {
     background: var(--background-modifier-active);
 }
 
-.navButtonActive__735cb {
+.navButtonActive__0c878 {
     background: none;
     color: var(--header-primary);
     font-weight: 600;
 }
 
-.navButtonActive__735cb,
-.navButtonActive__735cb:hover {
+.navButtonActive__0c878,
+.navButtonActive__0c878:hover {
     color: var(--header-primary);
 }
 
-.navButton__05cc7::after {
+.navButton_b588d0::after {
     position: absolute;
     content: '';
     height: 2px;
@@ -53,98 +53,98 @@
     transition: width 0.267s cubic-bezier(0.1, 0.25, 0.75, 0.9) 0s;
 }
 
-.navButtonActive__735cb::after {
+.navButtonActive__0c878::after {
     background: var(--brand-experiment);
 }
 
-.navButtonActive__735cb:hover::after {
+.navButtonActive__0c878:hover::after {
     width: 90%;
 }
 
-.container_e4c233,
-.container__7712a {
+.container_ec5ce2,
+.container__33507 {
     background: var(--background-secondary);
     border: 1px solid var(--neutralTertiary);
 }
 
-.container_e4c233 .iconLayout__9fbb1,
-.container__7712a .iconLayout__6d744 {
+.container_ec5ce2 .iconLayout__9d9a4,
+.container__33507 .iconLayout__67261 {
     order: -1;
     border-radius: 4px;
 }
 
-.container_e4c233 .clear_e3e382:hover,
-.container__7712a .pointer__4ee20:hover {
+.container_ec5ce2 .clear__70411:hover,
+.container__33507 .pointer__55d7a:hover {
     background: var(--background-modifier-hover);
 }
 
-.container_e4c233 .clear_e3e382:active,
-.container__7712a .pointer__4ee20:active {
+.container_ec5ce2 .clear__70411:active,
+.container__33507 .pointer__55d7a:active {
     background: var(--background-modifier-active);
 }
 
-.medium__2d9f3 .input_f4043f,
-.medium__2d9f3 .tag__69d9d,
-.medium__0fb5d .input__74754,
-.medium__0fb5d .tag__3ba94 {
+.medium_c22914 .input__745d4,
+.medium_c22914 .tag__69d9d,
+.medium__5b9a9 .input__48d49,
+.medium__5b9a9 .tag__3ba94 {
     padding-left: 0;
     font-size: 14px;
 }
 
-.header__55964 {
+.header_e5d8b2 {
     -webkit-box-shadow: none;
     box-shadow: none;
     border-bottom: 1px solid var(--background-tertiary);
     background: var(--background-primary);
 }
 
-.categoryList__5dbc1,
-.emojiPickerHasTabWrapper__80686 .categoryList_f8c48f {
+.categoryList_a35b58,
+.emojiPickerHasTabWrapper__63198 .categoryList_eac4ac {
     top: 53px;
 }
 
-.wrapper__7a35f {
+.wrapper__91b2c {
     background: var(--background-primary);
 }
 
-.header__9f6dc {
+.header__8e271 {
     color: var(--header-primary);
     height: 100%;
     border-radius: 4px;
 }
 
-.header__9f6dc:hover {
+.header__8e271:hover {
     background: var(--background-modifier-hover);
 }
 
-.header__9f6dc:active {
+.header__8e271:active {
     background: var(--background-modifier-active);
 }
 
-.headerLabel_e9f74f {
+.headerLabel_febbb2 {
     text-transform: capitalize;
 }
 
-.header__9f6dc .arrow_cb03b8 {
+.header__8e271 .arrow_cb03b8 {
     order: -1;
     margin: 0 8px;
 }
 
-#app-mount .emojiItem_b15dee.emojiItemSelected__1a09a {
+#app-mount .emojiItem_de65fd.emojiItemSelected__023be {
     background: var(--background-modifier-hover);
 }
 
-#app-mount .emojiItem_b15dee.emojiItemSelected__1a09a:active {
+#app-mount .emojiItem_de65fd.emojiItemSelected__023be:active {
     background: var(--background-modifier-active);
 }
 
-#app-mount .header_f7f1f3 {
+#app-mount .header_aac16f {
     -webkit-box-shadow: none;
     box-shadow: none;
     border-bottom: 1px solid var(--background-tertiary);
 }
 
-#app-mount .container_aab957 {
+#app-mount .container__1e477 {
     background: var(--background-primary);
 }
 
@@ -155,6 +155,6 @@
     box-shadow: var(--elevation-high);
 }
 
-.inspector__993e1 {
+.inspector__80c84 {
     background: var(--background-secondary);
 }
