@@ -11,11 +11,11 @@
     border: none;
 }
 
-#app-mount [class*="tab"i] .item__48dda.selected__5711d {
+#app-mount [class*="tab"i] .item__48dda.selected_a523ff {
     background: none;
 }
 
-#app-mount [class*="tab"i] .item__48dda.selected__5711d {
+#app-mount [class*="tab"i] .item__48dda.selected_a523ff {
     font-weight: 600;
 }
 
@@ -29,29 +29,29 @@
     transition: width 0.3s ease;
 }
 
-[class*="tab"i] .item__48dda.selected__5711d::after {
+[class*="tab"i] .item__48dda.selected_a523ff::after {
     background: var(--brand-experiment);
 }
 
-[class*="tab"i] .item__48dda.selected__5711d:hover::after {
+[class*="tab"i] .item__48dda.selected_a523ff:hover::after {
     width: 90%;
 }
 
-[class*="tab"i] .item__48dda:not(.selected__5711d, .disabled__85bca):hover {
+[class*="tab"i] .item__48dda:not(.selected_a523ff, .disabled__2717e):hover {
     background: var(--background-modifier-hover);
 }
 
-[class*="tab"i] .item__48dda:not(.selected__5711d, .disabled__85bca):active {
+[class*="tab"i] .item__48dda:not(.selected_a523ff, .disabled__2717e):active {
     background: var(--background-modifier-active);
 }
 
-.input_d266e7:not(textarea) {
+.input_f27786:not(textarea) {
     border-radius: 4px;
     background: var(--background-secondary);
     border: 1px solid var(--neutralTertiary);
 }
 
-#app-mount .bioTextArea_a108c9 {
+#app-mount .bioTextArea_f46f71 {
     background: var(--background-secondary);
     border: 1px solid var(--neutralTertiary);
 }
