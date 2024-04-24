@@ -1,26 +1,26 @@
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/SettingsSidebar.css);
 
 /* root */
-.layer__2efaa ~.layer__2efaa ,
-.layer__2efaa :has(~.layer__2efaa ) {
+.layer_f7d46a ~.layer_f7d46a ,
+.layer_f7d46a :has(~.layer_f7d46a ) {
     --settingsidebar-width: 320px;
 }
 
 /* base */
-.layer__2efaa .baseLayer__8fda3.stop-animations {
+.layer_f7d46a .baseLayer__2b890.stop-animations {
     margin-left: 0;
     margin-right: var(--settingsidebar-width);
 }
 
-.baseLayer__8fda3.stop-animations+.stop-animations+.layer__2efaa :not(.stop-animations) {
+.baseLayer__2b890.stop-animations+.stop-animations+.layer_f7d46a :not(.stop-animations) {
     border: 1px solid var(--background-tertiary) !important;
 }
 
-.baseLayer__8fda3.stop-animations+.stop-animations+.stop-animations+.layer__2efaa :not(.stop-animations) {
+.baseLayer__2b890.stop-animations+.stop-animations+.stop-animations+.layer_f7d46a :not(.stop-animations) {
     border: 1px solid var(--background-tertiary);
 }
 
-#app-mount .layer__2efaa ~.layer__2efaa  {
+#app-mount .layer_f7d46a ~.layer_f7d46a  {
     top: var(--titlebar-height) !important;
     left: unset !important;
     width: var(--settingsidebar-width) !important;
@@ -31,39 +31,39 @@
 }
 
 /* sidebar */
-.sidebarRegionScroller__1fa7e {
+.sidebarRegionScroller__8113e {
     background: var(--bg-overlay-chat, var(--gradient-kit-925a)), var(--background-primary);
 }
 
-.sidebarRegionScroller__1fa7e:not(:hover) .item__48dda.selected__5711d {
+.sidebarRegionScroller__8113e:not(:hover) .item__48dda.selected_a523ff {
     margin-top: 6px;
 }
 
-#app-mount .layer__2efaa ~.layer__2efaa  .sidebarRegionScroller__1fa7e {
+#app-mount .layer_f7d46a ~.layer_f7d46a  .sidebarRegionScroller__8113e {
     flex: 1 !important;
 }
 
-body #app-mount .layer__2efaa ~.layer__2efaa  .sidebarRegion__60457:not(:hover) .sidebar__9e3e2 {
+body #app-mount .layer_f7d46a ~.layer_f7d46a  .sidebarRegion__36437:not(:hover) .sidebar__02e8d {
     padding: 0 0 0 8px !important;
 }
 
-body #app-mount .layer__2efaa ~.layer__2efaa  .sidebar__9e3e2 {
+body #app-mount .layer_f7d46a ~.layer_f7d46a  .sidebar__02e8d {
     width: 100% !important;
 }
 
 /* contentregion */
-.contentRegion__0bec1 {
+.contentRegion__08eba {
     border-top: 1px solid var(--background-tertiary);
 }
 
-.contentColumn_dc7d36,
-.customColumn_e22a6e {
+.contentColumn__5f80b,
+.customColumn__0b6a6 {
     min-width: unset;
     width: 0;
 }
 
 /* close button */
-#app-mount .layer__2efaa ~.layer__2efaa  .toolsContainer_f5d55d {
+#app-mount .layer_f7d46a ~.layer_f7d46a  .toolsContainer__4e6ad {
     bottom: unset !important;
     top: 11px !important;
     right: 11px !important;
@@ -73,24 +73,24 @@ body #app-mount .layer__2efaa ~.layer__2efaa  .sidebar__9e3e2 {
     border: 1px solid transparent !important;
 }
 
-#app-mount .layer__2efaa ~.layer__2efaa  .toolsContainer_f5d55d:hover {
+#app-mount .layer_f7d46a ~.layer_f7d46a  .toolsContainer__4e6ad:hover {
     background: var(--background-modifier-hover) !important;
 }
 
-#app-mount .layer__2efaa ~.layer__2efaa  .toolsContainer_f5d55d:active {
+#app-mount .layer_f7d46a ~.layer_f7d46a  .toolsContainer__4e6ad:active {
     background: var(--background-modifier-active) !important;
     border-color: var(--background-modifier-active-border) !important;
 }
 
-.closeButton__34341:active {
+.closeButton__8177f:active {
     -webkit-transform: none;
     transform: none;
 }
 
-#app-mount .layer__2efaa ~.layer__2efaa  .toolsContainer_f5d55d,
-#app-mount .layer__2efaa ~.layer__2efaa  .toolsContainer_f5d55d .tools_c0ff70,
-#app-mount .layer__2efaa ~.layer__2efaa  .toolsContainer_f5d55d .container_bb0c52,
-#app-mount .layer__2efaa ~.layer__2efaa  .toolsContainer_f5d55d .closeButton__34341 {
+#app-mount .layer_f7d46a ~.layer_f7d46a  .toolsContainer__4e6ad,
+#app-mount .layer_f7d46a ~.layer_f7d46a  .toolsContainer__4e6ad .tools_c0ff70,
+#app-mount .layer_f7d46a ~.layer_f7d46a  .toolsContainer__4e6ad .container__3529f,
+#app-mount .layer_f7d46a ~.layer_f7d46a  .toolsContainer__4e6ad .closeButton__8177f {
     position: absolute !important;
     opacity: 1 !important;
     cursor: pointer !important;
@@ -98,10 +98,10 @@ body #app-mount .layer__2efaa ~.layer__2efaa  .sidebar__9e3e2 {
     height: 40px !important;
 }
 
-.closeButton__34341:hover+.keybind__57645 {
+.closeButton__8177f:hover+.keybind_a619c1 {
     display: none;
 }
 
-#app-mount .layer__2efaa .stop-animations:first-child::after {
+#app-mount .layer_f7d46a .stop-animations:first-child::after {
     content: none !important;
 }
