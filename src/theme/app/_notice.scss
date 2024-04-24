@@ -2,12 +2,12 @@
     display: flex;
 }
 
-.notice__5fd4c .closeButton_ffc97a {
+.notice__5fd4c .closeButton__90904 {
     position: relative;
     display: flex;
 }
 
-.notice__5fd4c .closeIcon_ae6326 {
+.notice__5fd4c .closeIcon__967e7 {
     display: none;
 }
 
@@ -29,15 +29,15 @@
 }
 
 /* BDFDB banner */
-#app-mount .app_de4237>.notice__5fd4c~.layers__1c917.layers_a23c37 .container_ca50b9,
+#app-mount .app_de4237>.notice__5fd4c~.layers__1c917.layers_a23c37 .container_debb33,
 .app_de4237>.notice__5fd4c~.layers__1c917.layers_a23c37 #bd-notices,
-.app_de4237>.notice__5fd4c~.layers__1c917.layers_a23c37 .chat__52833:not(:has(.topControls_d202b0)) .toolbar__88c63,
-.app_de4237>.notice__5fd4c~.layers__1c917.layers_a23c37 .container__5c7e7 .toolbar__88c63,
-.app_de4237>.notice__5fd4c~.layers__1c917.layers_a23c37 .sidebar_ded4b5:has(.privateChannels__93473)~.chat__52833 .children__32014,
-.app_de4237>.notice__5fd4c~.layers__1c917.layers_a23c37 .topControls_d202b0,
-.app_de4237>.notice__5fd4c~.layers__1c917.layers_a23c37 .header__104ca,
+.app_de4237>.notice__5fd4c~.layers__1c917.layers_a23c37 .chat__52833:not(:has(.topControls_e834ab)) .toolbar__62fb5,
+.app_de4237>.notice__5fd4c~.layers__1c917.layers_a23c37 .container_bd15da .toolbar__62fb5,
+.app_de4237>.notice__5fd4c~.layers__1c917.layers_a23c37 .sidebar_e031be:has(.privateChannels__9b518)~.chat__52833 .children_cde9af,
+.app_de4237>.notice__5fd4c~.layers__1c917.layers_a23c37 .topControls_e834ab,
+.app_de4237>.notice__5fd4c~.layers__1c917.layers_a23c37 .header__77c95,
 .app_de4237>.notice__5fd4c~.layers__1c917.layers_a23c37 .search__07df0,
-.platform-win .typeWindows__5fa63:has(~div .app_de4237>.notice__5fd4c) {
+.platform-win .typeWindows_e41dab:has(~div .app_de4237>.notice__5fd4c) {
     margin-top: 36px;
 }
 
