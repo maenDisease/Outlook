@@ -1,19 +1,19 @@
-.recentMentionsPopout__826a9 .header_f5cc88 {
+.recentMentionsPopout__40c54 .header__21b33 {
     padding: 10px 16px 10px 16px;
     height: unset;
     min-height: unset;
 }
 
-.header__53b07 {
+.header__6d44a {
     height: unset;
     min-height: unset;
 }
 
-.header_f5cc88 h1 {
+.header__21b33 h1 {
     font-weight: 600;
 }
 
-.messageGroupWrapper_f8c6e9 {
+.messageGroupWrapper__1fce2 {
     background: var(--n-yellow-canvas);
     border: none;
     border-radius: 8px;
@@ -21,9 +21,9 @@
     margin: 0 0 16px;
 }
 
-.messageGroupWrapper_f8c6e9::before,
-.recentMentionsPopout__826a9 .container__56e52::before,
-.recentMentionsPopout__826a9 .channel_d48f2d::before {
+.messageGroupWrapper__1fce2::before,
+.recentMentionsPopout__40c54 .container__7c2c1::before,
+.recentMentionsPopout__40c54 .channel__36a7e::before {
     content: '';
     width: 100%;
     height: 6px;
@@ -33,43 +33,43 @@
     left: 0;
 }
 
-.recentMentionsPopout__826a9 .container__56e52,
-.recentMentionsPopout__826a9 .channel_d48f2d {
+.recentMentionsPopout__40c54 .container__7c2c1,
+.recentMentionsPopout__40c54 .channel__36a7e {
     background: var(--n-yellow-canvas);
     position: relative;
     box-shadow: var(--elevation-card);
 }
 
-.recentMentionsPopout__826a9 .channelHeader__5d30c {
+.recentMentionsPopout__40c54 .channelHeader_ea0f89 {
     background: none;
     border-bottom: none;
     padding: 16px 16px 0 16px;
 }
 
-.controls__2aaac .button_ddf91e[aria-label] {
+.controls_fa77da .button__292b6[aria-label] {
     width: unset;
 }
 
-.controls__2aaac .button_ddf91e[aria-label]::after {
+.controls_fa77da .button__292b6[aria-label]::after {
     content: attr(aria-label);
     font-size: 12px;
 }
 
-.controls__2aaac .button_ddf91e[aria-label] svg {
+.controls_fa77da .button__292b6[aria-label] svg {
     margin-right: 7px;
 }
 
-.controls__2aaac .button_ddf91e[aria-label]:not(.disabled__8e315) {
+.controls_fa77da .button__292b6[aria-label]:not(.disabled__4d064) {
     background: none;
     border-radius: 4px;
     padding: 6px 10px;
     transition: none;
 }
 
-.controls__2aaac .button_ddf91e[aria-label]:not(.disabled__8e315):hover {
+.controls_fa77da .button__292b6[aria-label]:not(.disabled__4d064):hover {
     background: var(--background-modifier-hover);
 }
 
-.controls__2aaac .button_ddf91e[aria-label]:not(.disabled__8e315):active {
+.controls_fa77da .button__292b6[aria-label]:not(.disabled__4d064):active {
     background: var(--background-modifier-active);
 }

@@ -1,10 +1,10 @@
-.searchBar_ff8800 {
+.searchBar__310d8 {
     margin: 16px 16px 0 16px;
     background: var(--background-secondary);
     border: 1px solid var(--neutralTertiary);
 }
 
-.searchBar_ff8800 .inner__999f6 {
+.searchBar__310d8 .inner__999f6 {
     padding: 0;
 }
 
@@ -15,32 +15,32 @@
     left: 320px;
 }
 
-.searchBar_e0c60b {
+.searchBar__5a20a {
     height: 32px;
     min-width: 350px;
     flex: 1 1 350px;
     background: var(--brand-experiment-200);
 }
 
-.theme-dark .searchBar_e0c60b {
+.theme-dark .searchBar__5a20a {
     background: var(--brand-experiment-700);
 }
 
-.focused_ddee54 .searchBar_e0c60b,
-.open_d3ab4e .searchBar_e0c60b {
+.focused__037a4 .searchBar__5a20a,
+.open_d3ab4e .searchBar__5a20a {
     max-width: 928px;
     background: var(--background-primary);
     width: unset;
 }
 
-.searchBar_e0c60b .icon__46425 {
+.searchBar__5a20a .icon__53a5c {
     width: 32px;
     height: 32px;
     transform: scaleX(-1);
     order: -1;
 }
 
-.searchBar_e0c60b .icon__46425 .iconContainer__8fa9c {
+.searchBar__5a20a .icon__53a5c .iconContainer__9f124 {
     height: 20px;
     width: 20px;
 }
@@ -60,16 +60,16 @@
 }
 
 .theme-dark .search_ac353c .DraftEditor-root .public-DraftEditorPlaceholder-root,
-.theme-dark .searchBar_e0c60b .icon_f50f05 {
+.theme-dark .searchBar__5a20a .icon__5c8c7 {
     color: var(--brand-experiment-130);
 }
 
-.searchBar_e4ea2a {
+.searchBar__621ec {
     -webkit-box-shadow: none;
     box-shadow: none;
 }
 
-.input__848cd {
+.input__2a648 {
     padding: 0 12px;
     font-size: 20px;
     border-radius: 4px;

@@ -1,14 +1,14 @@
-#app-mount .container__871ba {
+#app-mount .container__2ed72 {
     background: transparent !important;
     width: 40px;
     height: 20px;
 }
 
-#app-mount .container__871ba svg {
+#app-mount .container__2ed72 svg {
     display: none;
 }
 
-#app-mount .container__871ba input {
+#app-mount .container__2ed72 input {
     display: inline-flex;
     align-items: center;
     opacity: 1;
@@ -24,11 +24,11 @@
     transition: all 0.1s ease 0s;
 }
 
-#app-mount .container__871ba input:hover {
+#app-mount .container__2ed72 input:hover {
     border: 1px solid var(--interactive-active);
 }
 
-#app-mount .container__871ba input::before {
+#app-mount .container__2ed72 input::before {
     content: '';
     width: 12px;
     height: 12px;
@@ -38,34 +38,34 @@
     transition: all 0.1s ease 0s;
 }
 
-#app-mount .container__871ba input:hover::before {
+#app-mount .container__2ed72 input:hover::before {
     background: var(--neutralDark);
 }
 
-#app-mount .container__871ba input:active::before {
+#app-mount .container__2ed72 input:active::before {
     width: 18px;
 }
 
-#app-mount .container__871ba input:checked {
+#app-mount .container__2ed72 input:checked {
     background: var(--brand-experiment);
     border-color: var(--brand-experiment);
 }
 
-#app-mount .container__871ba input:checked::before {
+#app-mount .container__2ed72 input:checked::before {
     background: white;
     transform: translateX(18px);
 }
 
-#app-mount .container__871ba input:checked:hover {
+#app-mount .container__2ed72 input:checked:hover {
     background: var(--brand-experiment-680);
     border-color: var(--brand-experiment-680);
 }
 
-#app-mount .container__871ba input:checked:active::before {
+#app-mount .container__2ed72 input:checked:active::before {
     transform: translateX(13px);
 }
 
-#app-mount .checkbox_c7f690 {
+#app-mount .checkbox_fcf2ad {
     border-color: var(--text-muted);
 }
 
@@ -73,16 +73,16 @@
     border-radius: 4px;
 }
 
-.checkboxWrapper__02583:hover .checkbox_c7f690:not(.checked__24ad6) svg path {
+.checkboxWrapper_a2bcc8:hover .checkbox_fcf2ad:not(.checked__16f88) svg path {
     fill: var(--text-muted);
 }
 
-.checkboxWrapper__02583:hover .checkbox_c7f690.checked__24ad6 {
+.checkboxWrapper_a2bcc8:hover .checkbox_fcf2ad.checked__16f88 {
     background: var(--brand-experiment-680) !important;
     border-color: var(--brand-experiment-680) !important;
 }
 
-.checkbox_c7f690.checked__24ad6 {
+.checkbox_fcf2ad.checked__16f88 {
     background: var(--brand-experiment) !important;
     border-color: var(--brand-experiment) !important;
 }

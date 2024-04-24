@@ -1,4 +1,4 @@
-.wrapper_ed1dea foreignObject {
+.wrapper__832f2 foreignObject {
     mask: none;
     border-radius: 4px;
 }
@@ -8,26 +8,26 @@
     background: none;
 }
 
-.folderIconWrapper__72239 {
+.folderIconWrapper__11165 {
     background: none !important;
     transform: rotate(-90deg);
 }
 
-.closedFolderIconWrapper__7321f {
+.closedFolderIconWrapper__722d5 {
     padding: 6px;
 }
 
-.closedFolderIconWrapper__7321f .icon_c48348,
-.expandedFolderIconWrapper__458cf svg {
+.closedFolderIconWrapper__722d5 .icon__94164,
+.expandedFolderIconWrapper__324c1 svg {
     transform: rotate(90deg);
 }
 
-.expandedFolderBackground__1bec6 {
+.expandedFolderBackground_b1385f {
     height: 48px;
     border-radius: 4px;
 }
 
-.wrapper_ed1dea:active {
+.wrapper__832f2:active {
     -webkit-transform: unset;
     transform: none;
 }
@@ -51,7 +51,7 @@
     display: none;
 }
 
-[id^="folder-items-"] .blobContainer__5ee50:hover {
+[id^="folder-items-"] .blobContainer_c44493:hover {
     background: var(--background-modifier-hover);
     box-shadow:
         0 0.3px 0.9px rgba(0, 0, 0, 0.07),

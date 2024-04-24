@@ -1,42 +1,42 @@
-#app-mount .wrapper_d281dd.selected_f5ec8e .childWrapper__01b9c,
-#app-mount .wrapper_d281dd:hover .childWrapper__01b9c {
+#app-mount .wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15,
+#app-mount .wrapper__8436d:hover .childWrapper_a6ce15 {
     color: var(--brand-experiment);
 }
 
-#app-mount .wrapper_d281dd:hover .childWrapper__01b9c {
+#app-mount .wrapper__8436d:hover .childWrapper_a6ce15 {
     background: var(--background-primary);
 }
 
-#app-mount .wrapper_d281dd:active .childWrapper__01b9c {
+#app-mount .wrapper__8436d:active .childWrapper_a6ce15 {
     background: var(--background-modifier-active);
 }
 
-.tutorialContainer__890ea foreignObject,
-.tutorialContainer__890ea+.listItem_fa7b36 foreignObject,
-.tutorialContainer_dc6fde foreignObject,
-.tutorialContainer_dc6fde+.listItem_fa7b36 foreignObject {
+.tutorialContainer_b06ae6 foreignObject,
+.tutorialContainer_b06ae6+.listItem__48528 foreignObject,
+.tutorialContainer__6835f foreignObject,
+.tutorialContainer__6835f+.listItem__48528 foreignObject {
     mask: none;
     border-radius: 4px;
 }
 
-#app-mount .childWrapper__01b9c,
-#app-mount .circleIconButton_d8df29 {
+#app-mount .childWrapper_a6ce15,
+#app-mount .circleIconButton__05cf2 {
     background: none;
 }
 
-.circleIconButton_d8df29 {
+.circleIconButton__05cf2 {
     color: var(--text-muted);
 }
 
-#app-mount .circleIconButton_d8df29:hover {
+#app-mount .circleIconButton__05cf2:hover {
     background: var(--background-primary);
 }
 
-#app-mount .circleIconButton_d8df29:active {
+#app-mount .circleIconButton__05cf2:active {
     background: var(--background-modifier-active);
 }
 
-#app-mount .circleIconButton_d8df29.selected__5250e {
+#app-mount .circleIconButton__05cf2.selected_aded59 {
     color: var(--brand-experiment);
 }
 
@@ -49,18 +49,18 @@
     background: var(--brand-experiment);
 }
 
-.listItem_fa7b36 .wrapper__3af0b .icon__0cbed {
+.listItem__48528 .wrapper__9916c .icon__11cf1 {
     transform-origin: center;
     scale: 0.6;
     border-radius: 8px;
 }
 
-.blobContainer__5ee50:hover {
+.blobContainer_c44493:hover {
     background: var(--background-primary);
     border-radius: 4px;
 }
 
-.blobContainer__5ee50:active {
+.blobContainer_c44493:active {
     background: var(--background-secondary);
     border-radius: 4px;
 }
