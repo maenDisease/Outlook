@@ -1,17 +1,17 @@
-#app-mount .container__590e2 {
+#app-mount .container__7e23c {
     background: none;
 }
 
-.animatedContainer__341f6 {
+.animatedContainer__0e828 {
     scale: 0.93;
     border-radius: 4px;
 }
 
-.link__95dc0 .name__8d1ec {
+.link_ddbb36 .name__4eb92 {
     font-size: 12px;
 }
 
-.link__95dc0 .icon_eff5d4 {
+.link_ddbb36 .icon__67ab4 {
     display: block;
     width: 16px;
     height: 16px;
@@ -20,49 +20,49 @@
     flex: 0 0 auto;
 }
 
-.wrapper__7bcde:not(.typeThread__2f91c) .link__95dc0 {
+.wrapper__612a5:not(.typeThread__5fb37) .link_ddbb36 {
     padding-left: 24px;
 }
 
-.typeThread__2f91c .link__95dc0 {
+.typeThread__5fb37 .link_ddbb36 {
     margin-left: 12px;
 }
 
 .spine__88e6d,
-.spineBorder_bdec8b {
+.spineBorder__52981 {
     left: 36px;
 }
 
-.wrapper__9c483 .container-q97qHp {
+.wrapper__07e2f .container-q97qHp {
     text-transform: capitalize;
     margin-left: 18px;
 }
 
-.wrapper__9c483 .icon_ef4486 {
+.wrapper__07e2f .icon__3aa8e {
     left: 12px;
     top: 4px;
     width: 16px;
     height: 16px;
 }
 
-.modeSelected__487d6 .link__95dc0,
-.modeSelected__487d6:hover .link__95dc0 {
+.modeSelected__473f1 .link_ddbb36,
+.modeSelected__473f1:hover .link_ddbb36 {
     background: var(--bg-overlay-selected, var(--gradient-kit-60a)), var(--secondarySurfaceSelected);
 }
 
-.modeSelected__487d6 .icon_eff5d4,
-.modeSelected__487d6:hover .icon_eff5d4 {
+.modeSelected__473f1 .icon__67ab4,
+.modeSelected__473f1:hover .icon__67ab4 {
     color: var(--interactive-active);
 }
 
-.modeConnected__1c02e .name__8d1ec,
-.modeConnected__1c02e:hover .name__8d1ec,
-.modeSelected__487d6 .name__8d1ec,
-.modeSelected__487d6:hover .name__8d1ec,
-.modeUnread_f74c03 .name__8d1ec,
-.modeUnread_f74c03:hover .name__8d1ec,
-.notInteractive_a7d9fb.modeConnected__1c02e .name__8d1ec,
-.notInteractive_a7d9fb.modeSelected__487d6 .name__8d1ec {
+.modeConnected__52a8f .name__4eb92,
+.modeConnected__52a8f:hover .name__4eb92,
+.modeSelected__473f1 .name__4eb92,
+.modeSelected__473f1:hover .name__4eb92,
+.modeUnreadImportant__35358 .name__4eb92,
+.modeUnreadImportant__35358:hover .name__4eb92,
+.notInteractive_e31551.modeConnected__52a8f .name__4eb92,
+.notInteractive_e31551.modeSelected__473f1 .name__4eb92 {
     font-weight: 600;
 }
 
@@ -76,6 +76,6 @@
     margin-top: -8px;
 }
 
-.unreadRelevant__44f9e {
+.unreadImportant_e8bb44 {
     background: var(--brand-experiment);
 }

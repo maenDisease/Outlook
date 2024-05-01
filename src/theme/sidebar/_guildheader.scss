@@ -1,4 +1,4 @@
-#app-mount .header__104ca {
+#app-mount .header__77c95 {
     position: fixed;
     z-index: 999;
     top: calc(var(--titlebar-height) + var(--panel-spacing) + 4px);
@@ -13,19 +13,19 @@
     width: 180px;
 }
 
-.header__104ca .headerContent_ee8727 {
+.header__77c95 .headerContent__6fcc7 {
     filter: none;
     max-width: 100%;
 }
 
-.header__104ca .text-md-semibold__79164 {
+.header__77c95 [data-text-variant="text-md/semibold"] {
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
     color: white;
 }
 
-.headerChildren__7cd0b {
+.headerChildren_e6a96f {
     background: var(--brand-experiment);
     height: 100%;
     position: absolute;
@@ -39,34 +39,34 @@
     color: white;
 }
 
-#app-mount .header__104ca:hover,
-.headerChildren__7cd0b:hover {
+#app-mount .header__77c95:hover,
+.headerChildren_e6a96f:hover {
     background: var(--brand-experiment-680);
 }
 
-.headerChildren__7cd0b .button__07e07 {
+.headerChildren_e6a96f .button__84b6b {
     opacity: 1;
     margin-left: unset;
 }
 
-.flowerStarContainer_d8d14b {
+.flowerStarContainer__00f61 {
     height: 24px !important;
     width: 24px !important;
 }
 
-.guildIconContainer_a995c7 {
+.guildIconContainer__3c180 {
     overflow: hidden;
 }
 
-.flowerStarContainer_d8d14b[class*="iconBackgroundTier"] {
+.flowerStarContainer__00f61[class*="iconBackgroundTier"] {
     scale: 1.8;
 }
 
-#app-mount .flowerStarContainer_d8d14b {
+#app-mount .flowerStarContainer__00f61 {
     color: transparent;
 }
 
-.communityInfoVisible_b0482d .communityInfoContainer__286d6 {
+.communityInfoVisible_bab80a .communityInfoContainer__6ea3a {
     margin-top: 0;
     height: 24px;
     width: 24px;
@@ -77,19 +77,19 @@
     order: -1;
 }
 
-.communityInfoPill_d3f445 {
+.communityInfoPill__1efab {
     padding: 0;
     background: none;
     border-radius: unset;
     margin-right: 0;
 }
 
-.communityIcon__465bb {
+.communityIcon__6aa44 {
     height: 20px;
     width: 20px;
     margin-right: 0;
 }
 
-.communityIcon__465bb+div {
+.communityIcon__6aa44+div {
     display: none;
 }
