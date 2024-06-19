@@ -1,25 +1,25 @@
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/SettingsSidebar.css);
 /* root */
-.layer_f7d46a ~ .layer_f7d46a,
-.layer_f7d46a :has(~ .layer_f7d46a) {
+.layer_d4b6c5 ~ .layer_d4b6c5,
+.layer_d4b6c5 :has(~ .layer_d4b6c5) {
   --settingsidebar-width: 320px;
 }
 
 /* base */
-.layer_f7d46a .baseLayer__2b890.stop-animations {
+.layer_d4b6c5 .baseLayer_d4b6c5.stop-animations {
   margin-left: 0;
   margin-right: var(--settingsidebar-width);
 }
 
-.baseLayer__2b890.stop-animations + .stop-animations + .layer_f7d46a :not(.stop-animations) {
+.baseLayer_d4b6c5.stop-animations + .stop-animations + .layer_d4b6c5 :not(.stop-animations) {
   border: 1px solid var(--background-tertiary) !important;
 }
 
-.baseLayer__2b890.stop-animations + .stop-animations + .stop-animations + .layer_f7d46a :not(.stop-animations) {
+.baseLayer_d4b6c5.stop-animations + .stop-animations + .stop-animations + .layer_d4b6c5 :not(.stop-animations) {
   border: 1px solid var(--background-tertiary);
 }
 
-#app-mount .layer_f7d46a ~ .layer_f7d46a {
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 {
   top: var(--titlebar-height) !important;
   left: unset !important;
   width: var(--settingsidebar-width) !important;
@@ -30,39 +30,39 @@
 }
 
 /* sidebar */
-.sidebarRegionScroller__8113e {
+.sidebarRegionScroller_c25c6d {
   background: var(--bg-overlay-chat, var(--gradient-kit-925a)), var(--background-primary);
 }
 
-.sidebarRegionScroller__8113e:not(:hover) .item__48dda.selected_a523ff {
+.sidebarRegionScroller_c25c6d:not(:hover) .item_a0.selected_a0 {
   margin-top: 6px;
 }
 
-#app-mount .layer_f7d46a ~ .layer_f7d46a .sidebarRegionScroller__8113e {
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .sidebarRegionScroller_c25c6d {
   flex: 1 !important;
 }
 
-body #app-mount .layer_f7d46a ~ .layer_f7d46a .sidebarRegion__36437:not(:hover) .sidebar__02e8d {
+body #app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .sidebarRegion_c25c6d:not(:hover) .sidebar_c25c6d {
   padding: 0 0 0 8px !important;
 }
 
-body #app-mount .layer_f7d46a ~ .layer_f7d46a .sidebar__02e8d {
+body #app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .sidebar_c25c6d {
   width: 100% !important;
 }
 
 /* contentregion */
-.contentRegion__08eba {
+.contentRegion_c25c6d {
   border-top: 1px solid var(--background-tertiary);
 }
 
-.contentColumn__5f80b,
-.customColumn__0b6a6 {
+.contentColumn_c25c6d,
+.customColumn_c25c6d {
   min-width: unset;
   width: 0;
 }
 
 /* close button */
-#app-mount .layer_f7d46a ~ .layer_f7d46a .toolsContainer__4e6ad {
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolsContainer_c25c6d {
   bottom: unset !important;
   top: 11px !important;
   right: 11px !important;
@@ -72,23 +72,23 @@ body #app-mount .layer_f7d46a ~ .layer_f7d46a .sidebar__02e8d {
   border: 1px solid transparent !important;
 }
 
-#app-mount .layer_f7d46a ~ .layer_f7d46a .toolsContainer__4e6ad:hover {
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolsContainer_c25c6d:hover {
   background: var(--background-modifier-hover) !important;
 }
 
-#app-mount .layer_f7d46a ~ .layer_f7d46a .toolsContainer__4e6ad:active {
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolsContainer_c25c6d:active {
   background: var(--background-modifier-active) !important;
   border-color: var(--background-modifier-active-border) !important;
 }
 
-.closeButton__8177f:active {
+.closeButton_df5532:active {
   transform: none;
 }
 
-#app-mount .layer_f7d46a ~ .layer_f7d46a .toolsContainer__4e6ad,
-#app-mount .layer_f7d46a ~ .layer_f7d46a .toolsContainer__4e6ad .tools_c0ff70,
-#app-mount .layer_f7d46a ~ .layer_f7d46a .toolsContainer__4e6ad .container__3529f,
-#app-mount .layer_f7d46a ~ .layer_f7d46a .toolsContainer__4e6ad .closeButton__8177f {
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolsContainer_c25c6d,
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolsContainer_c25c6d .tools_c25c6d,
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolsContainer_c25c6d .container_df5532,
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolsContainer_c25c6d .closeButton_df5532 {
   position: absolute !important;
   opacity: 1 !important;
   cursor: pointer !important;
@@ -96,10 +96,10 @@ body #app-mount .layer_f7d46a ~ .layer_f7d46a .sidebar__02e8d {
   height: 40px !important;
 }
 
-.closeButton__8177f:hover + .keybind_a619c1 {
+.closeButton_df5532:hover + .keybind_df5532 {
   display: none;
 }
 
-#app-mount .layer_f7d46a .stop-animations:first-child::after {
+#app-mount .layer_d4b6c5 .stop-animations:first-child::after {
   content: none !important;
 }
