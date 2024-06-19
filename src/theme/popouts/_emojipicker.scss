@@ -1,17 +1,17 @@
-.contentWrapper_e0bb2c {
+.contentWrapper_af5dbb {
     background: var(--background-primary);
     -webkit-box-shadow: var(--elevation-high);
     box-shadow: var(--elevation-high);
 }
 
-.emojiPicker__5e2e2 {
+.emojiPicker_c6ee36 {
     background: var(--background-primary);
     border-radius: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
 
-.navButton_b588d0 {
+.navButton_af5dbb {
     border-radius: 4px;
     color: var(--interactive-normal);
     font-size: 14px;
@@ -21,30 +21,30 @@
     transition: none;
 }
 
-.navItem__38e35+.navItem__38e35 {
+.navItem_af5dbb+.navItem_af5dbb {
     margin-left: 0;
 }
 
-.navButton_b588d0:hover {
+.navButton_af5dbb:hover {
     background: var(--background-modifier-hover);
 }
 
-.navButton_b588d0:active {
+.navButton_af5dbb:active {
     background: var(--background-modifier-active);
 }
 
-.navButtonActive__0c878 {
+.navButtonActive_af5dbb {
     background: none;
     color: var(--header-primary);
     font-weight: 600;
 }
 
-.navButtonActive__0c878,
-.navButtonActive__0c878:hover {
+.navButtonActive_af5dbb,
+.navButtonActive_af5dbb:hover {
     color: var(--header-primary);
 }
 
-.navButton_b588d0::after {
+.navButton_af5dbb::after {
     position: absolute;
     content: '';
     height: 2px;
@@ -53,98 +53,98 @@
     transition: width 0.267s cubic-bezier(0.1, 0.25, 0.75, 0.9) 0s;
 }
 
-.navButtonActive__0c878::after {
+.navButtonActive_af5dbb::after {
     background: var(--brand-experiment);
 }
 
-.navButtonActive__0c878:hover::after {
+.navButtonActive_af5dbb:hover::after {
     width: 90%;
 }
 
-.container_ec5ce2,
+.container_effbe2,
 .container__33507 {
     background: var(--background-secondary);
     border: 1px solid var(--neutralTertiary);
 }
 
-.container_ec5ce2 .iconLayout__9d9a4,
+.container_effbe2 .iconLayout_effbe2,
 .container__33507 .iconLayout__67261 {
     order: -1;
     border-radius: 4px;
 }
 
-.container_ec5ce2 .clear__70411:hover,
+.container_effbe2 .clear_effbe2:hover,
 .container__33507 .pointer__55d7a:hover {
     background: var(--background-modifier-hover);
 }
 
-.container_ec5ce2 .clear__70411:active,
+.container_effbe2 .clear_effbe2:active,
 .container__33507 .pointer__55d7a:active {
     background: var(--background-modifier-active);
 }
 
-.medium_c22914 .input__745d4,
-.medium_c22914 .tag__69d9d,
+.medium_effbe2 .input_effbe2,
+.medium_effbe2 .tag_effbe2,
 .medium__5b9a9 .input__48d49,
 .medium__5b9a9 .tag__3ba94 {
     padding-left: 0;
     font-size: 14px;
 }
 
-.header_e5d8b2 {
+.header_c6ee36 {
     -webkit-box-shadow: none;
     box-shadow: none;
     border-bottom: 1px solid var(--background-tertiary);
     background: var(--background-primary);
 }
 
-.categoryList_a35b58,
-.emojiPickerHasTabWrapper__63198 .categoryList_eac4ac {
+.categoryList_a7a485,
+.emojiPickerHasTabWrapper_c6ee36 .categoryList_c6ee36 {
     top: 53px;
 }
 
-.wrapper__91b2c {
+.wrapper_e06857 {
     background: var(--background-primary);
 }
 
-.header__8e271 {
+.header_e06857 {
     color: var(--header-primary);
     height: 100%;
     border-radius: 4px;
 }
 
-.header__8e271:hover {
+.header_e06857:hover {
     background: var(--background-modifier-hover);
 }
 
-.header__8e271:active {
+.header_e06857:active {
     background: var(--background-modifier-active);
 }
 
-.headerLabel_febbb2 {
+.headerLabel_e06857 {
     text-transform: capitalize;
 }
 
-.header__8e271 .arrow_cb03b8 {
+.header_e06857 .arrow_d64d50 {
     order: -1;
     margin: 0 8px;
 }
 
-#app-mount .emojiItem_de65fd.emojiItemSelected__023be {
+#app-mount .emojiItem_fbfedd.emojiItemSelected_fbfedd {
     background: var(--background-modifier-hover);
 }
 
-#app-mount .emojiItem_de65fd.emojiItemSelected__023be:active {
+#app-mount .emojiItem_fbfedd.emojiItemSelected_fbfedd:active {
     background: var(--background-modifier-active);
 }
 
-#app-mount .header_aac16f {
+#app-mount .header_b56bbc {
     -webkit-box-shadow: none;
     box-shadow: none;
     border-bottom: 1px solid var(--background-tertiary);
 }
 
-#app-mount .container__1e477 {
+#app-mount .container_b56bbc {
     background: var(--background-primary);
 }
 
@@ -155,6 +155,6 @@
     box-shadow: var(--elevation-high);
 }
 
-.inspector__80c84 {
+.inspector_c3120f {
     background: var(--background-secondary);
 }

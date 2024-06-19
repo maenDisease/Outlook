@@ -1,83 +1,83 @@
-.flexible__1e80b {
+.flexible_d90b3d {
     min-width: 180px;
 }
 
-.menu__088f7:not(#account) {
+.menu_d90b3d:not(#account) {
     max-height: 802px;
     border-radius: 8px;
     overflow: hidden;
 }
 
-.layer__6b5c3[style*="left"] .submenuPaddingContainer__5a97c {
+.layer_cd0de5[style*="left"] .submenuPaddingContainer_d90b3d {
     padding-left: 0;
     margin-left: -4px;
 }
 
-.layer__6b5c3[style*="right"] .submenuPaddingContainer__5a97c {
+.layer_cd0de5[style*="right"] .submenuPaddingContainer_d90b3d {
     padding-right: 0;
     margin-right: -4px;
 }
 
-.scroller__8f066 {
+.scroller_d90b3d {
     padding: 0 !important;
     overflow: overlay !important;
 }
 
-#account.menu__088f7.flexible__1e80b {
+#account.menu_d90b3d.flexible_d90b3d {
     min-width: 100%;
 }
 
-#account.menu__088f7 div[role=separator] {
+#account.menu_d90b3d div[role=separator] {
     border-color: var(--profile-body-divider-color);
     margin: 0 12px;
 }
 
-#app-mount .scroller__8f066:not(:hover)::-webkit-scrollbar-thumb {
+#app-mount .scroller_d90b3d:not(:hover)::-webkit-scrollbar-thumb {
     background: none;
 }
 
-.item__183e8 {
+.item_d90b3d {
     margin: 0;
     border-radius: 0;
     font-size: 12px;
     line-height: 18px;
 }
 
-.item__183e8 .label__563c3 {
+.item_d90b3d .label_d90b3d {
     margin: 0px 4px;
 }
 
-.labelContainer__4f869 {
+.labelContainer_d90b3d {
     min-height: 36px;
     padding-left: 24px;
 }
 
-.item__183e8.colorDefault_e361cf:not(.colorDanger__08c25) {
+.item_d90b3d.colorDefault_d90b3d:not(.colorDanger_d90b3d) {
     color: var(--interactive-active);
 }
 
-.item__183e8.colorDefault_e361cf.focused_dcafb9:not(.colorDanger__08c25) {
+.item_d90b3d.colorDefault_d90b3d.focused_d90b3d:not(.colorDanger_d90b3d) {
     background: var(--background-modifier-hover);
 }
 
-.item__183e8.colorDefault_e361cf.focused_dcafb9:not(.colorDanger__08c25):active {
+.item_d90b3d.colorDefault_d90b3d.focused_d90b3d:not(.colorDanger_d90b3d):active {
     background: var(--background-modifier-active);
 }
 
-.item__183e8.colorDefault_e361cf.focused_dcafb9:not(.colorDanger__08c25) {
+.item_d90b3d.colorDefault_d90b3d.focused_d90b3d:not(.colorDanger_d90b3d) {
     color: var(--neutralDark);
 }
 
-.item__183e8.colorDefault_e361cf.focused_dcafb9:not(.colorDanger__08c25) .iconContainer__5d61c {
+.item_d90b3d.colorDefault_d90b3d.focused_d90b3d:not(.colorDanger_d90b3d) .iconContainer_d90b3d {
     color: var(--themeDarkAlt);
 }
 
-.colorDefault_e361cf:active:not(.hideInteraction__0b569) {
+.colorDefault_d90b3d:active:not(.hideInteraction_d90b3d) {
     background: var(--background-modifier-active);
     color: var(--interactive-active);
 }
 
-.item__183e8 .iconContainer__5d61c:has(.icon__0bfbf) {
+.item_d90b3d .iconContainer_d90b3d:has(.icon_d90b3d) {
     margin: 0px 4px;
     order: -1;
     display: flex;
@@ -85,28 +85,28 @@
     justify-content: center;
 }
 
-.hintContainer__10d0f,
-.imageContainer__074ff {
+.hintContainer_d90b3d,
+.imageContainer_d90b3d {
     max-height: 18px;
     margin: 0px 4px;
     order: -1;
 }
 
-.item__183e8 .icon__0bfbf {
+.item_d90b3d .icon_d90b3d {
     width: 16px;
     height: 16px;
 }
 
-.separator__174fc {
+.separator_d90b3d {
     margin: 0;
     border-bottom: 1px solid var(--background-tertiary);
 }
 
-.wrapper__01a96 {
+.wrapper_a24e84 {
     padding: 8px;
 }
 
-.customItem__3f15f {
+.customItem_d90b3d {
     color: var(--interactive-normal);
     border-color: var(--interactive-normal);
     font-size: 14px;
@@ -114,7 +114,7 @@
     line-height: 18px;
 }
 
-.button_bfb8e1 {
+.button_a24e84 {
     width: 32px;
     height: 32px;
     padding: 0;
@@ -122,19 +122,19 @@
     background: none;
 }
 
-.button_bfb8e1:hover,
-.keyboard-mode .button_bfb8e1.focused__53c23 {
+.button_a24e84:hover,
+.keyboard-mode .button_a24e84.focused_a24e84 {
     background: var(--background-modifier-hover);
 }
 
-.caret_ce50ce {
+.caret_d90b3d {
     width: 12px;
     height: 12px;
 }
 
-.colorDefault_e361cf.focused_dcafb9 .caret_ce50ce,
-.colorDefault_e361cf.focused_dcafb9 .checkbox__378d3,
-.colorDefault_e361cf.focused_dcafb9 .radioSelection__41d1e,
-.colorDefault_e361cf.focused_dcafb9 .subtext__694e2 {
+.colorDefault_d90b3d.focused_d90b3d .caret_d90b3d,
+.colorDefault_d90b3d.focused_d90b3d .checkbox_d90b3d,
+.colorDefault_d90b3d.focused_d90b3d .radioSelection_d90b3d,
+.colorDefault_d90b3d.focused_d90b3d .subtext_d90b3d {
     color: var(--text-muted);
 }

@@ -1,8 +1,8 @@
-#app-mount .content__76dcf:has(.pageWrapper_c182d3) {
+#app-mount .content_a4d4d9:has(.pageWrapper_a3a4ce) {
     margin-top: var(--panel-spacing);
 }
 
-.pageWrapper_c182d3 {
+.pageWrapper_a3a4ce {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     border-top: 1px solid var(--neutralTertiary);
@@ -10,64 +10,64 @@
     border-right: 1px solid var(--neutralTertiary);
 }
 
-#app-mount .pageWrapper_c182d3 {
+#app-mount .pageWrapper_a3a4ce {
     background: var(--bg-overlay-chat, var(--gradient-kit-925a)), var(--background-primary);
 }
 
-#app-mount .card__86773,
-#app-mount .iconMask__4092e {
+#app-mount .card_eb1ca6,
+#app-mount .iconMask_eb1ca6 {
     background: var(--n-gray-canvas);
 }
 
-#app-mount .card__86773 {
+#app-mount .card_eb1ca6 {
     transform: none;
 }
 
-#app-mount .card__86773:focus,
-#app-mount .card__86773:hover {
+#app-mount .card_eb1ca6:focus,
+#app-mount .card_eb1ca6:hover {
     -webkit-box-shadow: var(--n-note-box-shadow), var(--n-preview-box-shadow-selected);
     box-shadow: var(--n-note-box-shadow), var(--n-preview-box-shadow-selected);
 }
 
-.icon__87f1f {
+.icon_db1980 {
     color: var(--header-primary);
 }
 
-.card__86773 {
+.card_eb1ca6 {
     box-shadow: var(--n-note-box-shadow);
 }
 
-.categoryItem__0608f.selectedCategoryItem__3e361 {
+.categoryItem_c72b37.selectedCategoryItem_c72b37 {
     color: var(--interactive-active);
 }
 
-.categoryItem__0608f.selectedCategoryItem__3e361 .itemInner_eedb2b {
+.categoryItem_c72b37.selectedCategoryItem_c72b37 .itemInner_c72b37 {
     background: var(--secondarySurfaceSelected);
 }
 
-.categoryItem__0608f .avatar__6337f {
+.categoryItem_c72b37 .avatar_e9f61e {
     width: 16px;
     height: 16px;
     margin-right: 12px;
 }
 
-.categoryItem__0608f .name__7afe8 {
+.categoryItem_c72b37 .name_e9f61e {
     font-size: 12px;
     line-height: 16px;
     font-weight: 400;
 }
 
-.categoryItem__0608f.selectedCategoryItem__3e361 .name__7afe8 {
+.categoryItem_c72b37.selectedCategoryItem_c72b37 .name_e9f61e {
     color: var(--interactive-active);
     font-weight: 600;
 }
 
-.categoryItem__0608f .wrappedLayout__24524 {
+.categoryItem_c72b37 .wrappedLayout_e9f61e {
     height: auto;
     padding: 4px 8px;
 }
 
-.categoryItem__0608f.container_a48b21 {
+.categoryItem_c72b37.container_e9f61e {
     padding-top: 0;
     padding-bottom: 4px;
 }

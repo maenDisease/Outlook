@@ -1,4 +1,4 @@
-#app-mount .header__77c95 {
+#app-mount .header_fd6364 {
     position: fixed;
     z-index: 999;
     top: calc(var(--titlebar-height) + var(--panel-spacing) + 4px);
@@ -13,19 +13,19 @@
     width: 180px;
 }
 
-.header__77c95 .headerContent__6fcc7 {
+.header_fd6364 .headerContent_fd6364 {
     filter: none;
     max-width: 100%;
 }
 
-.header__77c95 [data-text-variant="text-md/semibold"] {
+.header_fd6364 [data-text-variant="text-md/semibold"] {
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
     color: white;
 }
 
-.headerChildren_e6a96f {
+.headerChildren_fd6364 {
     background: var(--brand-experiment);
     height: 100%;
     position: absolute;
@@ -39,34 +39,34 @@
     color: white;
 }
 
-#app-mount .header__77c95:hover,
-.headerChildren_e6a96f:hover {
+#app-mount .header_fd6364:hover,
+.headerChildren_fd6364:hover {
     background: var(--brand-experiment-680);
 }
 
-.headerChildren_e6a96f .button__84b6b {
+.headerChildren_fd6364 .button_a79c58 {
     opacity: 1;
     margin-left: unset;
 }
 
-.flowerStarContainer__00f61 {
+.flowerStarContainer_ff7d90 {
     height: 24px !important;
     width: 24px !important;
 }
 
-.guildIconContainer__3c180 {
+.guildIconContainer_ed9816 {
     overflow: hidden;
 }
 
-.flowerStarContainer__00f61[class*="iconBackgroundTier"] {
+.flowerStarContainer_ff7d90[class*="iconBackgroundTier"] {
     scale: 1.8;
 }
 
-#app-mount .flowerStarContainer__00f61 {
+#app-mount .flowerStarContainer_ff7d90 {
     color: transparent;
 }
 
-.communityInfoVisible_bab80a .communityInfoContainer__6ea3a {
+.communityInfoVisible_fd6364 .communityInfoContainer_fd6364 {
     margin-top: 0;
     height: 24px;
     width: 24px;
@@ -77,19 +77,19 @@
     order: -1;
 }
 
-.communityInfoPill__1efab {
+.communityInfoPill_fd6364 {
     padding: 0;
     background: none;
     border-radius: unset;
     margin-right: 0;
 }
 
-.communityIcon__6aa44 {
+.communityIcon_fd6364 {
     height: 20px;
     width: 20px;
     margin-right: 0;
 }
 
-.communityIcon__6aa44+div {
+.communityIcon_fd6364+div {
     display: none;
 }
